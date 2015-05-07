@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/placeholder..txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/wistia/w-learn.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/janasiegle.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/janasiegle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +37,8 @@
       <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7862069">
-              <caret line="124" column="60" selection-start-line="124" selection-start-column="60" selection-end-line="124" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.6413793">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -225,7 +222,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wistia" />
+              <option name="myItemId" value="mundial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7862069">
-          <caret line="124" column="60" selection-start-line="124" selection-start-column="60" selection-end-line="124" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.6413793">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
           <folding />
         </state>
       </provider>
