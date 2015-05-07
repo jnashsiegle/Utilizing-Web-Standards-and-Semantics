@@ -2,8 +2,21 @@
  * Created by janasiegle on 5/6/15.
  */
 
-(function ($) {
+$(document).ready(function () {
 
-    $('.prettySocial').prettySocial();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
 
-})(jQuery);
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
