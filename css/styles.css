@@ -33,12 +33,16 @@ a{
 }
 a.external:link{
     color: #a92e14;
+    border-right: none;
 }
 a.external:visited{
     color: #54a663;
 }
 a.external:hover{
     color: green;
+}
+ul.resources li{
+    border-right: none;
 }
 html {
     position: relative;
@@ -183,21 +187,22 @@ figure figcaption {
     display: block;
     border: 1px dotted #6D6442;
     text-align: center;
+    font-size:.75em;
 }
 p.clearfix{
     padding-top: 20px;
     vertical-align: baseline;
 }
 img:hover{
-    -webkit-transform: scale(3,3);
-    -moz-transform: scale(3,3);
-    transform: scale(3,3);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    transform: scale(2,2);
 }
 footer{
     position: absolute;
     height: 100px;
     width: 100%;
-    background-color: #6D6442;
+    background-color: #f8f8f8;
     bottom: 0;
 }
 .footer-content p{
