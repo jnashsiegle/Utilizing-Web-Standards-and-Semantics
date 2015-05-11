@@ -25,15 +25,12 @@ Colors:
 article, aside, details, figcaption, figure, footer, header, menu, nav, section {
   display: block;
 }
-p{
+p, li{
     line-height: 1.5;
     color: #6D6442;
 }
 ol, ul{
 	list-style: none outside;
-}
-li {
-	line-height: 18px;
 }
 a{
 	text-decoration: none;
@@ -56,18 +53,19 @@ html {
     position: relative;
     min-height: 100%;
     box-sizing: border-box;
-    font-family: "Helvetica Neu", Helvetica, Arial, sans-serif;
+    font-family: 'Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,sans-serif,serif;
+    font-size: 100%
 }
 body {
-    margin: 0 0 100px; /* bottom = footer height */
+    margin: 0 0 6.250em; /* bottom = footer height */
 	padding: 0;
 	height: 100%;
-	background-color: #f8f8f8;
+	background-color: #ffffff;
     color: #6D6442;
 }
-#main, header, footer{
-  max-width: 1200px
-  width: 100%;
+header, footer{
+    max-width: 87.500em;
+    width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;	
@@ -75,39 +73,42 @@ body {
 /*header styling*/
 header{
 	top: 0;
-	min-height: 182px;
-	background: rgb(255, 255, 255);
+	min-height: 11.375em;
+    width: 85%;
 }
-.logo {
-	margin: 0 auto;
-	vertical-align: baseline;	
-	width: 15%;
+#logo{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.75em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1em;
+    color: #6D6442;
+    margin: 0.67em 0 0 auto;
 }
-.logo img {
-	margin-top: 60px;
-    transform: none;
-}
-.navbar {     /*if needed for mobile */
-  display: none;
-  background: rgb(35, 174, 241);
-  width: 38px;
-  height: 38px;
-  background: url(../images/menu.svg) no-repeat center center;
-  float: right;
+#slogan{
+    font-family: 'Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,sans-serif,serif;
+    font-size: .75em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    line-height: 1.438em;
+    color: #54a663;
+    margin: 0 0 1em auto;
 }
 nav {
   border-top: 1px solid #eee;
   background: #ffffff;
   text-align: center;
-  height: 40px;
+  height: 2.50em;
 }
 nav ul {
 list-style: none;
 }
 nav li {
   display: inline-block;
-  height: 40px;
-  width: 100px;
+  height: 2.500em;
+  width: 6.250em;
   overflow: hidden;
   text-align: center;
   text-transform: uppercase;
@@ -120,12 +121,12 @@ li:last-child {
     border-right: 1px solid #d0d0d0;
 }
 nav li a {
-    width: 100px;
-    font-size: 14px;
+    width: 6.250em;
+    font-size: .875em;
     color: #6D6442;
     position: relative;
     display: block;
-    line-height: 40px; /* Vertically center text by making line height equal to height */
+    line-height: 2.50em; /* Vertically center text by making line height equal to height   40px */
     border-left: 1px solid #d0d0d0;
     margin: 0;
     padding: 0;
@@ -138,27 +139,63 @@ nav >ul >li:hover {
     background: #54a663;
 }
 /*main content styling */
-.content{
+.content, article{
     width: 85%;
-    margin: 40px auto;
+    margin: 2.5em auto;
     border: 1px solid #6D6442;
     -webkit-box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
     -moz-box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
     box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
+    background-color: #f8f8f8
 }
-.content p, .resources{
-    text-indent: 50px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 10px;
+.content p, .resources, #personal p, #professional p{
+    text-indent: 3.125em;
+    padding-right: 2.50em;
+    padding-left: 2.50em;
+    padding-bottom: .625em;
 }
 .content p:first-child{
-    padding-top: 20px;
+    padding-top: 1.250em;
 }
 section{
-    margin-left: 20px;
-    margin-bottom: 75px;
+    margin-left: 1.250em;
+    margin-bottom: 4.688em;
 }
+/*About Us page specific*/
+#personal {
+    float: left;
+    width: 45%;
+}
+#personal h1, #personal img{
+    text-indent: 1.125em;
+}
+#personal img, #professional img{
+    margin: 2.5em 1.125em 2.5em 1.125em;
+    
+    -webkit-box-shadow:
+    0px 0px 0px 2px rgba(0,0,0,0.6),
+    0px 0px 0px 14px #fff,
+    0px 0px 0px 18px rgba(0,0,0,0.2),
+    6px 6px 8px 17px #555;
+
+    -moz-box-shadow:
+    0px 0px 0px 2px rgba(0,0,0,0.6),
+    0px 0px 0px 14px #fff,
+    0px 0px 0px 18px rgba(0,0,0,0.2),
+    6px 6px 8px 17px #555;
+
+    box-shadow:
+    0px 0px 0px 2px rgba(0,0,0,0.6),
+    0px 0px 0px 14px #fff,
+    0px 0px 0px 18px rgba(0,0,0,0.2),
+    6px 6px 8px 17px #555;
+}
+
+
+p:first-child:first-letter {
+    font-size: 50px;
+}
+
 /*images and examples*/
 .example-container img{
     float: left;
@@ -168,7 +205,7 @@ figure{
     display: inline-block;
     float: left;
     border: 1px dotted gray;
-    margin: 20px;
+    margin: 1.250em;
 }
 figure figcaption {
     display: block;
@@ -177,7 +214,7 @@ figure figcaption {
     font-size:.75em;
 }
 p.clearfix{
-    padding-top: 20px;
+    padding-top: 1.250em;
     vertical-align: baseline;
 }
 img:hover{
@@ -187,22 +224,26 @@ img:hover{
 }
 footer{
     position: absolute;
-    height: 100px;
+    height: 6.250em;
     width: 100%;
     background-color: #f8f8f8;
     bottom: 0;
-}
-.footer-content p{
     text-align: center;
     line-height: 100px;
     color: #bfc5bc;
 }
+footer p{
+    text-align: center;
+    line-height: 100px;
+    color: #bfc5bc;
+    bottom: 0;
+}
 .scrollup {
-    width: 80px;
-    height: 80px;
+    width: 5em;
+    height: 5em;
     position: fixed;
-    bottom: 50px;
-    right: 100px;
+    bottom: 3.125em;
+    right: 6.250em;
     display: none;
     text-indent: -9999px;
     z-index: 9999999999;
@@ -212,4 +253,19 @@ footer{
 .nav {
   display: block !important;
 	}
+}
+/* Mobile styles */
+@media only screen and (max-width: 560px) {
+    h1 {
+        font-size: 24px;
+    }
+    #personal, #professional{
+    width: 85%;
+    float: none;
+    text-align: center;
+    }
+    #professional{
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
