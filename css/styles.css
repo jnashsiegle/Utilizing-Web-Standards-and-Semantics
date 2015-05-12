@@ -27,11 +27,16 @@ ol, ul{
 a{
 	text-decoration: none;
 }
-xmp{
-    margin: 0 auto;
+a:link{
+    color: #54a663;
+}
+a:visited{
+    color:#bfc5bc;
+}
+a:active{
+    color: #a92e14;
 }
 /*style of links within text - different than nav links*/
-
 ul#resources li{
     border-right: none;
 }
@@ -40,7 +45,7 @@ html {
     min-height: 100%;
     box-sizing: border-box;
     font-family: 'Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,sans-serif,serif;
-    font-size: 100%
+    font-size: 100%;
 }
 body {
     margin: 0 0 6.250em; /* bottom = footer height */
@@ -78,48 +83,36 @@ header p{
     color: #54a663;
     margin: 0 0 1em auto;
 }
-nav {
-  border-top: 1px solid #eee;
+nav, nav ul {
+  font-size: .875em;
+  color: #6D6442;
+  text-align: center;  border-top: 1px solid #d0d0d0;
   background: #ffffff;
-  text-align: center;
-  height: 2.50em;
-}
-nav ul {
-list-style: none;
+  list-style: none;
 }
 nav li {
   display: inline-block;
   height: 2.500em;
+  line-height: 2.50em; /* Vertically center text by making line height equal to height   40px */
   width: 6.250em;
   overflow: hidden;
-  text-align: center;
   text-transform: uppercase;
   position: relative;
   border-left: 1px solid #d0d0d0;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 li:last-child {
     border-right: 1px solid #d0d0d0;
 }
-nav li a {
-    width: 6.250em;
-    font-size: .875em;
-    color: #6D6442;
-    position: relative;
-    display: block;
-    line-height: 2.50em; /* Vertically center text by making line height equal to height   40px */
-    border-left: 1px solid #d0d0d0;
-    margin: 0;
-    padding: 0;
+nav li:visited{
+    color: #a92e14;
 }
-nav >ul >li.active{
-    background: #bfc5bc;
-    color: #6D6442;
+nav >ul >li:hover, nav > ul >ul>li:hover {
+    background: #938D79;
+    color: #f8f8f8;
 }
-nav >ul >li:hover {
-    background: #54a663;
-}
+
 /*main content styling */
 section{
     width: 85%;
@@ -128,18 +121,23 @@ section{
     -webkit-box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
     -moz-box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
     box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
-    background-color: #f8f8f8
+    background-color: #f8f8f8;
 }
-section p, #resources, #personal p, #professional p, section h2{
-    text-indent: 3.125em;
+section p, #resources, #personal p, #professional p{
+    text-indent: 2.125em;
     padding-right: 2.50em;
     padding-left: 2.50em;
     padding-bottom: .625em;
     padding-top:.625em;
 }
+section h2, section h3{
+    text-indent: 1.125em;
+    padding-bottom: .625em;
+    padding-top:.625em;
+}
 article{
     margin-left: 1.250em;
-    margin-bottom: 4.688em;
+    margin-bottom: 1.688em;
 }
 /*About Us page specific*/
 #personal {
@@ -168,7 +166,10 @@ article{
     0px 0px 0px 14px #fff,
     0px 0px 0px 18px rgba(0,0,0,0.2),
     6px 6px 8px 17px #555;
+    width: 250px;
+    height: 180px;
 }
+
 p:first-child:first-letter {
     font-size: 50px;
 }
@@ -184,6 +185,9 @@ figure figcaption {
     border: 1px dotted #6D6442;
     text-align: center;
     font-size:.75em;
+}
+figure img{
+    width: 250px;
 }
 .chosen{
     border:5px double red;
