@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/8hour/8-about.png" afterPath="$PROJECT_DIR$/images/8hour/8-about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/8hour/8-blog.png" afterPath="$PROJECT_DIR$/images/8hour/8-blog.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/avideh/a-landing.png" afterPath="$PROJECT_DIR$/images/avideh/a-landing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/avideh/a-navigation.png" afterPath="$PROJECT_DIR$/images/avideh/a-navigation.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bgim-cta.png" afterPath="$PROJECT_DIR$/images/bgim-cta.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/f-gallery.png" afterPath="$PROJECT_DIR$/images/f-gallery.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/h-blog.png" afterPath="$PROJECT_DIR$/images/h-blog.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/lc-cta.png" afterPath="$PROJECT_DIR$/images/lc-cta.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/mundial/m-contact.png" afterPath="$PROJECT_DIR$/images/mundial/m-contact.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/mundial/m-pie.png" afterPath="$PROJECT_DIR$/images/mundial/m-pie.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/wistia/w-blog.png" afterPath="$PROJECT_DIR$/images/wistia/w-blog.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/wistia/w-features.png" afterPath="$PROJECT_DIR$/images/wistia/w-features.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/wistia/w-login.png" afterPath="$PROJECT_DIR$/images/wistia/w-login.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/wistia/w-register.png" afterPath="$PROJECT_DIR$/images/wistia/w-register.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +36,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64841497">
-              <caret line="154" column="45" selection-start-line="154" selection-start-column="45" selection-end-line="154" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.86455333">
+              <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -541,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64841497">
-          <caret line="154" column="45" selection-start-line="154" selection-start-column="45" selection-end-line="154" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.86455333">
+          <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
           <folding />
         </state>
       </provider>

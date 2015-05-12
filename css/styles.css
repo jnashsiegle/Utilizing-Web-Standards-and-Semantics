@@ -231,7 +231,7 @@ footer p{
     bottom: 0;
 }
 footer p:first-child:first-letter {
-    font-size: 1.25em;
+    font-size: 1em;
 }
 .scrollup {
     width: 5em;
