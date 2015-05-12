@@ -7,24 +7,12 @@ Colors:
 #fff - white
 #a92e14 - bright rust red for CTA's
 */
-
-* { 
-  margin:  0;
-  padding:  0;
-  border:  0;
-  vertical-align:  baseline; 
-}
-*, *:before, *:after {
-    box-sizing: content-box;
-}
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
-article, aside, details, figcaption, figure, footer, header, menu, nav, section {
-  display: block;
-}
+/*some defaults*/
 p, li{
     line-height: 1.5;
     color: #6D6442;
@@ -39,17 +27,11 @@ ol, ul{
 a{
 	text-decoration: none;
 }
+xmp{
+    margin: 0 auto;
+}
 /*style of links within text - different than nav links*/
-a.external:link{
-    color: #a92e14;
-    border-right: none;
-}
-a.external:visited{
-    color: #54a663;
-}
-a.external:hover{
-    color: green;
-}
+
 ul#resources li{
     border-right: none;
 }
@@ -69,18 +51,14 @@ body {
 }
 header{
     max-width: 87.500em;
-    width: 100%;
-	margin: 0 auto;
+    top: 0;
+    min-height: 11.375em;
+    width: 85%;
+    margin: 0 auto;
 	padding: 0;
 	overflow: hidden;	
 }
-/*header styling*/
-header{
-	top: 0;
-	min-height: 11.375em;
-    width: 85%;
-}
-#logo{
+header h1{
     font-family: 'Brush Script MT', cursive;
     font-size: 1.75em;
     font-style: italic;
@@ -90,7 +68,7 @@ header{
     color: #6D6442;
     margin: 0.67em 0 0 auto;
 }
-#slogan{
+header p{
     font-family: 'Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,sans-serif,serif;
     font-size: .75em;
     font-style: normal;
@@ -143,7 +121,7 @@ nav >ul >li:hover {
     background: #54a663;
 }
 /*main content styling */
-article{
+section{
     width: 85%;
     margin: 2.5em auto;
     border: 1px solid #6D6442;
@@ -152,14 +130,14 @@ article{
     box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
     background-color: #f8f8f8
 }
-article p, #resources, #personal p, #professional p{
+section p, #resources, #personal p, #professional p{
     text-indent: 3.125em;
     padding-right: 2.50em;
     padding-left: 2.50em;
     padding-bottom: .625em;
     padding-top:.625em;
 }
-section{
+article{
     margin-left: 1.250em;
     margin-bottom: 4.688em;
 }
