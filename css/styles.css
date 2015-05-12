@@ -30,11 +30,9 @@ a{
 a:link{
     color: #54a663;
 }
-a:visited{
-    color:#bfc5bc;
-}
-a:active{
+li.active{
     color: #a92e14;
+    background:#bfc5bc;
 }
 /*style of links within text - different than nav links*/
 ul#resources li{
