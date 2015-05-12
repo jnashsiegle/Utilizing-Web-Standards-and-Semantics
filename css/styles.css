@@ -130,7 +130,7 @@ section{
     box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
     background-color: #f8f8f8
 }
-section p, #resources, #personal p, #professional p{
+section p, #resources, #personal p, #professional p, section h2{
     text-indent: 3.125em;
     padding-right: 2.50em;
     padding-left: 2.50em;
