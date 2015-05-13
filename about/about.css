@@ -42,7 +42,7 @@ html {
     font-size: 100%;
 }
 body {
-    margin: 0 0 6.250em; /* bottom = footer height */
+    margin: 50px 0 6.250em 50px; /* bottom = footer height */
     padding: 0;
     height: 100%;
     background-color: #ffffff;
@@ -56,24 +56,13 @@ figure img{
     width: 500px;
 }
 /*main content styling */
-
 article{
     margin-left: 1.250em;
     margin-bottom: 1.688em;
 }
-@media only screen and (min-width: 960px){
-    .nav {
-        display: block !important;
-    }
-}
-/* Mobile styles */
-@media only screen and (max-width: 560px) {
-    h1 {
-        font-size: 24px;
-    }
-    #professional, #personal{
-        padding-right: 0;
-        padding-left: 0;
-        width: 85%;
-    }
+.code{
+    width: 90%;
+    font-size: .5em;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
