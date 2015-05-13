@@ -10,7 +10,7 @@
 		<script src = "js/respond.min.js"></script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script language="JavaScript">
+		<script>
 			<!--
 			function calcHeight()
 			{
@@ -37,6 +37,7 @@
 							<li><a href = "index.html" data-caption = "About Me">About Me</a></li>
 							<li class = "active"><a href = "#" data-caption = "Library">Library</a></li>
 							<li><a href = "build.html" data-caption = "Code Snippets">Code</a></li>
+                        </ul>
 							<ul>
 								<li><a href="about/about.html#about" target = "resize" title="About">About</a></li>
 								<li><a href="#blog" title="Blog">Blog</a></li>
@@ -44,18 +45,18 @@
 								<li><a href="#cta" title="CTA">CTA</a></li>
 								<li><a href="#features" title="Features">Features</a></li>
 								<li><a href="#footer" title="Footers">Footers</a></li>
-								<li><a href =#gallery" title = "gallery">Gallery</a></li>
+								<li><a href="#gallery" title = "gallery">Gallery</a></li>
 								<li><a href="#header" title="Headers">Headers</a></li>
 								<li><a href="#landing" title="Landing Pages">Landing Pages</a></li>
 								<li><a href="#login" title="Login">Login</a></li>
 								<li><a href="#navigation" title="navigation">Navigation</a></li>
 							</ul>
-						</ul>
+
 					</nav>
 				</header> <!--end of header-->
 				<!--beginning of main content -->
 				<div class = "codeContainer">
-					<iframe width="1400" height="20" onLoad="calcHeight();"	scrolling="YES" frameborder="1" id="resize" name="resize"></iframe>
+					<iframe width="1400" height="20" onLoad="calcHeight();" id="resize" name="resize"></iframe>   <!--add scrolling="yes" via CSS, add frameborder via CSS-->
 				</div>
 	</body>
 </html>

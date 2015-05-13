@@ -12,6 +12,11 @@ Colors:
     display: table;
     clear: both;
 }
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /*some defaults*/
 p, li{
     line-height: 1.5;
