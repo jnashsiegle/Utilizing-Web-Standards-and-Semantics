@@ -1,0 +1,72 @@
+/*
+Colors:
+#938D79 = medium tan
+#54a663 - light grass green
+#bfc5bc - light gray
+#6D6442 - dark brownish green
+#fff - white
+#a92e14 - bright rust red for CTA's
+*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*some defaults*/
+p, li{
+    line-height: 1.5;
+    color: #6D6442;
+}
+p.clearfix{
+    padding-top: .625em;
+    vertical-align: baseline;
+}
+.codeContainer {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.codeContainer iframe#resize {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+html {
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+    font-family: 'Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,sans-serif,serif;
+    font-size: 100%;
+}
+body {
+    margin: 0 0 6.250em; /* bottom = footer height */
+    padding: 0;
+    height: 100%;
+    background-color: #ffffff;
+    color: #6D6442;
+}
+/*main content styling */
+
+article{
+    margin-left: 1.250em;
+    margin-bottom: 1.688em;
+}
+@media only screen and (min-width: 960px){
+    .nav {
+        display: block !important;
+    }
+}
+/* Mobile styles */
+@media only screen and (max-width: 560px) {
+    h1 {
+        font-size: 24px;
+    }
+    #professional, #personal{
+        padding-right: 0;
+        padding-left: 0;
+        width: 85%;
+    }
+}

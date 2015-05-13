@@ -3,54 +3,59 @@
 <html class = "no-js">  <!--works with modernizr -->
 	<head>
 		<meta charset = "UTF-8">
-		<title> Build Lab </title>
-		<link rel = "stylesheet" href = css/normalize302.css">
+		<title> Code Snippets </title>
+		<link rel = "stylesheet" href = "css/normalize302.css">
 		<link rel = "stylesheet" href = "css/styles.css">
 		<script src = "js/modernizr.custom.01351.js"></script>
 		<script src = "js/respond.min.js"></script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script language="JavaScript">
+			<!--
+			function calcHeight()
+			{
+				//find the height of the internal page
+				var the_height=
+						document.getElementById('resize').contentWindow.
+								document.body.scrollHeight;
+
+				//change the height of the iframe
+				document.getElementById('resize').height=
+						the_height;
+			}
+			//-->
+		</script>
+
 	</head>
 	<body>
 				<!--Header Start -->
 				<header>
 					<a href = ""><h1 id = "logo">Jana Nash-Siegle</h1>
 					<p id = "slogan">Designing with simplicity <br />Developing to eliminate the clutter</p></a>
-						<nav>
-							<ul>
-								<li><a href = "#" data-caption = "About Me">About Me</a>
-								<li><a href = "library.html" data-caption = "Library">Library</a>
-								<li class = "active"><a href = "build.html" data-caption = "Build Lab">Build Lab</a></li>
-							</ul>
-						</nav>
-					<nav id="topNav">
+					<nav>
 						<ul>
-							<li>
-								<a href="header.html" title="Headers">Headers</a>
-							</li>
-							<li><a href="cta.html" title="CTA">CTA</a></li>
-							<li><a href="features.html" title="Features">Features</a></li>
-							<li class = "active"><a href="about.html" title="About">About</a></li>
-							<li><a href="blog.html" title="Blog">Blog</a></li>
-							<li>
-								<a href="contact.html" title="Contact">Contact</a>
-							</li>
-							<li><a href="login.html" title="Login">Login</a></li>
-							<li><a href="footer.html" title="Footers">Footers</a></li>
-							<li><a href="navigation.html" title="navigation">Navigation</a></li>
-							<li><a href = "gallery.html" title = "gallery">Gallery</a></li>
+							<li><a href = "index.html" data-caption = "About Me">About Me</a></li>
+							<li class = "active"><a href = "#" data-caption = "Library">Library</a></li>
+							<li><a href = "build.html" data-caption = "Build Lab">Build Lab</a></li>
+							<ul>
+								<li><a href="about/about.html#about" target = "resize" title="About">About</a></li>
+								<li><a href="#blog" title="Blog">Blog</a></li>
+								<li><a href="#contact" title="Contact">Contact</a></li>
+								<li><a href="#cta" title="CTA">CTA</a></li>
+								<li><a href="#features" title="Features">Features</a></li>
+								<li><a href="#footer" title="Footers">Footers</a></li>
+								<li><a href = "gallery" title = "gallery">Gallery</a></li>
+								<li><a href="#header" title="Headers">Headers</a></li>
+								<li><a href="#landing" title="Landing Pages">Landing Pages</a></li>
+								<li><a href="#login" title="Login">Login</a></li>
+								<li><a href="#navigation" title="navigation">Navigation</a></li>
+							</ul>
 						</ul>
 					</nav>
 				</header> <!--end of header-->
 				<!--beginning of main content -->
-				<H1>THIS PAGE IS UNDER TESTING FOR CODE DISPLAYING OPTIONS, IT IS NOT PART OF THE WEEK 1 ASSIGNMENT</H1>
-				<iframe src="about/about.html" width="450" height="400" frameborder="0">
-					<a href="about/about.html#about">Hmm, you are using a very old browser.
-						Click here to go directly to included content.</a>
-				</iframe>
-
-		<footer>
-	            <p>©2015, Jana Nash-Siegle</p>
-	    </footer>
+				<div class = "codeContainer">
+					<iframe width="1400" height="20" onLoad="calcHeight();"	scrolling="NO" frameborder="1" id="resize" name="resize"></iframe>
+				</div>
 	</body>
 </html>

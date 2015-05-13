@@ -34,6 +34,19 @@ li.active{
     color: #a92e14;
     background:#bfc5bc;
 }
+.codeContainer {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.codeContainer iframe#resize {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 /*style of links within text - different than nav links*/
 ul#resources li{
     border-right: none;
