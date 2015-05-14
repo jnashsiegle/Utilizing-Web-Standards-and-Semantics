@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/header/header.css" afterPath="$PROJECT_DIR$/header/navicon.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/header/header.html" afterPath="$PROJECT_DIR$/header/navicon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3323782">
-              <caret line="113" column="44" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.48280802">
+              <caret line="126" column="208" selection-start-line="126" selection-start-column="208" selection-end-line="126" selection-end-column="208" />
               <folding />
             </state>
           </provider>
@@ -73,10 +71,10 @@
         <option value="$PROJECT_DIR$/features/features.html" />
         <option value="$PROJECT_DIR$/gallery/gallery.css" />
         <option value="$PROJECT_DIR$/gallery/gallery.html" />
-        <option value="$PROJECT_DIR$/library.html" />
         <option value="$PROJECT_DIR$/header/header.css" />
         <option value="$PROJECT_DIR$/header/navicon.html" />
         <option value="$PROJECT_DIR$/header/header.html" />
+        <option value="$PROJECT_DIR$/library.html" />
       </list>
     </option>
   </component>
@@ -705,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323782">
-          <caret line="113" column="44" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.48280802">
+          <caret line="126" column="208" selection-start-line="126" selection-start-column="208" selection-end-line="126" selection-end-column="208" />
           <folding />
         </state>
       </provider>
