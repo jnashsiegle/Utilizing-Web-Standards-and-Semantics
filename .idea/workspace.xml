@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog.html" afterPath="$PROJECT_DIR$/blog/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/contact.html" afterPath="$PROJECT_DIR$/contact/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/login.html" afterPath="$PROJECT_DIR$/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/registration.html" afterPath="$PROJECT_DIR$/login/registration.html" />
-    </list>
+    <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="" />
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,8 +89,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="226" />
+    <option name="x" value="64" />
+    <option name="y" value="257" />
     <option name="width" value="1569" />
     <option name="height" value="846" />
   </component>
@@ -276,8 +270,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="226" width="1569" height="846" extended-state="0" />
-    <editor active="true" />
+    <frame x="64" y="257" width="1569" height="846" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
