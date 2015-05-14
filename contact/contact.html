@@ -4,25 +4,29 @@
 <head>
 	<meta charset = "UTF-8">
 	<title> Build-Contact </title>
-	<link rel = "stylesheet" href = "../css/normalize302.css">
+	<!--<link rel = "stylesheet" href = "../css/normalize302.css">-->
 	<link rel = "stylesheet" href = "contact.css">
 	<script src = "../js/modernizr.custom.01351.js"></script>
 	<script src = "../js/respond.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-	<div id="contact">
-		<form method="post">
-			<input type="text" name="Name" id="Name" placeholder="Name" required/>
-			<input type="text" name="Telephone" id="Telephone" placeholder="Telephone" />
-			<input type="text" name="Email" id="Email" placeholder="Email" required/>
-			<textarea name="Message" rows="5" cols="20" id="Message" placeholder="Message"></textarea>
-			<input type="submit" name="submit" value="Send" class="submit" />
+	<section>
+		<form>
+			<p>
+				<input type = "text" name = "Name" id = "Name" placeholder = "Name" required>
+				<input type = "text" name = "Telephone" id= "Telephone" placeholder = "Telephone" >
+			</p>
+			<p>
+				<input type = "text" name = "Email" id = "Email" placeholder = "Email" required>
+				<input type = "text" name = "Subject" id = "Subject" placeholder = "Subject" required>
+			</p>
+				<textarea name = "Message" rows = "2" cols ="41" id ="Message" placeholder = "Message"></textarea>
+			</p>
+			<p>
+				<input type = "submit" name ="submit" value ="Send">
+			</p>
 		</form>
-	</div>
-
-
-
-
+	</section>
 </body>
 </html>
