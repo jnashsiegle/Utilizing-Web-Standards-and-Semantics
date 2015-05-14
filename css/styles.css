@@ -7,11 +7,6 @@ Colors:
 #fff - white
 #a92e14 - bright rust red for CTA's
 */
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 article::after {
     content: "";
     display: table;
@@ -118,7 +113,7 @@ nav li {
   padding: 0;
   margin: 0 auto;
 }
-li:last-child {
+li:last-of-type {
     border-right: 1px solid #d0d0d0;
 }
 nav li:visited{
