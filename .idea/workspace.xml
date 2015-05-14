@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
-    </list>
+    <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="" />
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73103446">
-              <caret line="220" column="201" selection-start-line="220" selection-start-column="201" selection-end-line="220" selection-end-column="201" />
+            <state vertical-scroll-proportion="0.37931034">
+              <caret line="208" column="181" selection-start-line="208" selection-start-column="181" selection-end-line="208" selection-end-column="181" />
               <folding />
             </state>
           </provider>
@@ -696,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73103446">
-          <caret line="220" column="201" selection-start-line="220" selection-start-column="201" selection-end-line="220" selection-end-column="201" />
+        <state vertical-scroll-proportion="0.37931034">
+          <caret line="208" column="181" selection-start-line="208" selection-start-column="181" selection-end-line="208" selection-end-column="181" />
           <folding />
         </state>
       </provider>
