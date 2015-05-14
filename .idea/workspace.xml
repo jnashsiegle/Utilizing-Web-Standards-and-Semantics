@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery/gallery.html" afterPath="$PROJECT_DIR$/gallery/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="library.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="39.166668">
-              <caret line="278" column="183" selection-start-line="278" selection-start-column="183" selection-end-line="278" selection-end-column="183" />
+            <state vertical-scroll-proportion="0.7517241">
+              <caret line="278" column="209" selection-start-line="278" selection-start-column="209" selection-end-line="278" selection-end-column="209" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33103448">
+            <state vertical-scroll-proportion="-10.0">
               <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding />
             </state>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/footer/footer.html" />
         <option value="$PROJECT_DIR$/features/features.html" />
         <option value="$PROJECT_DIR$/gallery/gallery.css" />
-        <option value="$PROJECT_DIR$/library.html" />
         <option value="$PROJECT_DIR$/gallery/gallery.html" />
+        <option value="$PROJECT_DIR$/library.html" />
       </list>
     </option>
   </component>
@@ -668,18 +668,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library.html">
+    <entry file="file://$PROJECT_DIR$/gallery/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="39.166668">
-          <caret line="278" column="183" selection-start-line="278" selection-start-column="183" selection-end-line="278" selection-end-column="183" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/gallery.html">
+    <entry file="file://$PROJECT_DIR$/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33103448">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.7517241">
+          <caret line="278" column="209" selection-start-line="278" selection-start-column="209" selection-end-line="278" selection-end-column="209" />
           <folding />
         </state>
       </provider>
