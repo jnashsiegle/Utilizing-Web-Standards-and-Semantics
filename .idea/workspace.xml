@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/landing.html" afterPath="$PROJECT_DIR$/landing/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="landing.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/landing/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8137931">
-              <caret line="44" column="89" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.8344827">
+              <caret line="44" column="76" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -688,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/landing/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8137931">
-          <caret line="44" column="89" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.8344827">
+          <caret line="44" column="76" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
           <folding />
         </state>
       </provider>
