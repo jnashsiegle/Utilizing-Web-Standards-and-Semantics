@@ -1,0 +1,40 @@
+/*
+Colors:
+#f0f0f0 - white/grey
+#131072 - dk purple
+#350001 - dark brown
+#008cba - light blue (almost twitter blue)
+##184f79 - dark blue
+
+*/
+/*Primary Navigation*/
+#primaryNav ul{
+    display: none;
+}
+#primaryNav{
+    width: 75px;
+    height: 75px;
+    background-color: #184f79;
+}
+
+
+#primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 45px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+}
+#primaryNav-toggle span{  /*builds the icon -1*/
+    top: 25px;
+    left: 13px;
+}
+#primaryNav-toggle span:before {   /*builds the icon -2 */
+    top: 10px;
+}
+#primaryNav-toggle span:after { /*builds the icon -3 */
+    bottom: -20px;
+}

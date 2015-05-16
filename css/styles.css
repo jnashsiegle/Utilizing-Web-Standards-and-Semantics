@@ -12,6 +12,12 @@ article::after {
     display: table;
     clear: both;
 }
+.update{
+    color: #a92e14;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /*some defaults*/
 p, li{
     line-height: 1.5;
@@ -199,6 +205,9 @@ figure figcaption {
 }
 figure img{
     width: 250px;
+}
+.tootall{
+    width: 25%
 }
 .chosen{
     border:5px double red;

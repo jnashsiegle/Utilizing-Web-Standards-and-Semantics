@@ -1,0 +1,40 @@
+/*
+Colors:
+#938D79 = medium tan
+#54a663 - light grass green
+#bfc5bc - light gray
+#6D6442 - dark brownish green
+#fff - white
+#a92e14 - bright rust red for CTA's
+*/
+/*Footer */
+#square {
+    width: 100px;
+    height: 100px;
+    background: #f0f0f0;
+    position: fixed;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -67px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#arrow{
+    font-size: 5em;
+    color:#350001;
+    padding-left: 65px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+#arrow:hover{
+    color: #184f79;
+}
+a{
+    text-decoration: none;
+}
