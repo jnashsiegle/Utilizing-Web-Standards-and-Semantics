@@ -48,6 +48,33 @@ body {
 #primaryNav ul{
     display: none;
 }
+#primaryNav{
+    width: 75px;
+    height: 75px;
+    background-color: #007095;
+}
+
+
+#primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 45px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+}
+#primaryNav-toggle span{
+top: 25px;
+    left: 13px;
+}
+#primaryNav-toggle span:before {
+    top: 10px;
+}
+#primaryNav-toggle span:after {
+    bottom: -20px;
+}
  nav.secondNav.secondNavFill{
     background:rgba(240, 240, 240, 0.6);
     width: 40px;
