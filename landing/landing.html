@@ -3,7 +3,7 @@
 <html class = "no-js">  <!--works with modernizr -->
 <head>
 	<meta charset = "UTF-8">
-	<title> Build-Footer </title>
+	<title> Build-Landing </title>
 	<link rel = "stylesheet" href = "../css/normalize302.css">
 	<link rel = "stylesheet" href = "landing.css">
 	<script src = "../js/modernizr.custom.01351.js"></script>
@@ -11,38 +11,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-	<header>   <!--to be positioned via css to be in bottom right corner, vertically -->
-		<nav id = "secondaryNav">
-            <ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">About Us</a></li>
-				<li><a href="">How We Operate</a></li>
-				<li><a href="">Solutions</a></li>
-				<li><a href="">Certifications</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-		<a id = "#menu" href=>menu icon</a>  <!--actual icon made via css/text to be removed -->
-			<nav id = "primaryNav">
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">About Us</a></li>
-					<li><a href="">How We Operate</a></li>
-					<li><a href="">Solutions</a></li>
-					<li><a href="">Certifications</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav>
-			<section>
-				<h2>Mundial Asset Management</h2>
-				<img src = "../images/humminbird.png" alt = "Logo">
-				<p>Discretion, transparency and high added</p>
-				<p>value. A multi family office that always thinks</p>
-				<p>ahead to build the future.</p>
-			</section>
-	<footer>
-		<a href = "#"><p>&lang;</p></a> <!--positioned/rotated to point down and background via css -->
-	</footer>
+    <div id = "wrapper">
+        <header>   <!--to be positioned via css to be in bottom right corner, vertically -->
+            <nav class = "secondNav secondNavFill"> <!--Dots-->
+                <ul>
+                    <li class = "current"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">How We Operate</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            <a id = "#menu" href=>menu icon</a>  <!--actual icon made via css/text to be removed -->
+                <nav id = "primaryNav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">How We Operate</a></li>
+                        <li><a href="">Solutions</a></li>
+                        <li><a href="">Certifications</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <section>
+                    <h2>Mundial Asset Management</h2>
+                    <img src = "../images/humminbird.png" alt = "Logo">
+                    <p>Discretion, transparency and high added</p>
+                    <p>value. A multi family office that always thinks</p>
+                    <p>ahead to build the future.</p>
+                </section>
+        <footer>
+            <a href = "#"><p>&lang;</p></a> <!--positioned/rotated to point down and background via css -->
+        </footer>
+    </div> <!--end of wrapper-->
 </body>
 </html>

@@ -1,9 +1,157 @@
 /*
 Colors:
-#938D79 = medium tan
-#54a663 - light grass green
-#bfc5bc - light gray
-#6D6442 - dark brownish green
-#fff - white
-#a92e14 - bright rust red for CTA's
+#f0f0f0 - white/grey
+#131072 - dk purple
+#350001 - dark brown
+#008cba - light blue (almost twitter blue)
+#007095 - dark cyan
+
 */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+li{
+    list-style-type: none;
+}
+body {
+    background: #007095 url(../images/mundial/bg-home.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    position: relative;
+    cursor: auto;
+}
+/* Border Frame */
+#wrapper{
+    border: 25px solid #f0f0f0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: 99999999;
+}
+/*Primary Navigation*/
+#primaryNav ul{
+    display: none;
+}
+
+ nav.secondNav.secondNavFill{
+    background:rgba(240, 240, 240, 0.6);
+    width: 40px;
+    height: 100%;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    margin: 0 auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+/*Secondary Navigation*/
+
+.secondNav ul {
+    position: relative;
+    display: inline-block;
+    bottom: -70%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.secondNav li {
+    position: relative;
+    display: block;
+    margin: 7px 16px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.secondNav li a {
+    top: 50%;
+    right: 60%;
+        width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 50%;
+    background-color: #fff;
+    background-color: rgba(240, 240, 240, 0.2);
+    text-indent: -999em; /* make the text accessible to screen readers */
+    cursor: pointer;
+    position: absolute;
+
+
+}
+
+.secondNav li a:focus {
+    outline: none;
+}
+
+/* Fill up */
+
+.secondNavFill li a {
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(0, 112, 149, .5);
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+
+.secondNavFill li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(19, 16, 114, .5);
+    box-shadow: 0 0 1px rgba(19, 16, 114, .5);
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+
+.secondNavFill li a:hover,
+.secondNavFill li a:focus {
+    background-color: rgba(19, 16, 114, .5);
+}
+
+.secondNavFill li.current a::after {
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* =============================Media Queries */
+
+@media only screen and (max-width: 767px) {
+    body {
+
+        background-image: url(../images/mundial/bg-home-small.jpg);  /*7% size of orignal*/
+    }
+}
