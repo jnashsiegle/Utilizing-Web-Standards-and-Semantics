@@ -15,6 +15,9 @@ html{
     height: 100%;
     overflow: hidden;
 }
+a{
+    text-decoration: none;
+}
 li{
     list-style-type: none;
 }
@@ -39,6 +42,7 @@ body {
     min-width: 100%;
     min-height: 100%;
     position: fixed;
+    z-index: 999;
 }
 /*Primary Navigation*/
 #primaryNav ul{
@@ -57,6 +61,7 @@ body {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+     z-index: 100;
 }
 /*Secondary Navigation*/
 .secondNav ul {
@@ -74,7 +79,6 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
-
 .secondNav li {
     position: relative;
     display: block;
@@ -84,7 +88,6 @@ body {
     cursor: pointer;
     vertical-align: middle;
 }
-
 .secondNav li a {
     top: 50%;
     right: 60%;
@@ -131,11 +134,34 @@ body {
 .secondNavFill li.current a::after {
     height: 100%;
 }
-
-
-
-
-
+/*Footer */
+#square {
+    width: 100px;
+    height: 100px;
+    background: #f0f0f0;
+    position: fixed;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -67px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#arrow{
+    font-size: 5em;
+    color:#350001;
+    padding-left: 65px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+#arrow:hover{
+    color: #007095;
+}
 
 
 /* =============================Media Queries */
