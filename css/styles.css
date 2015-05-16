@@ -241,6 +241,7 @@ footer p:first-child:first-letter {
     font-size: 1em;
 }
 .scrollup {
+    
     width: 5em;
     height: 5em;
     position: fixed;
@@ -251,6 +252,7 @@ footer p:first-child:first-letter {
     z-index: 9999999999;
     background: url('../images/humminbird.png') no-repeat;
 }
+
 @media only screen and (min-width: 960px){
 .nav {
   display: block !important;
