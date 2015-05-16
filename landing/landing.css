@@ -4,7 +4,7 @@ Colors:
 #131072 - dk purple
 #350001 - dark brown
 #008cba - light blue (almost twitter blue)
-#007095 - dark cyan
+##184f79 - dark blue
 
 */
 *, *:before, *:after {
@@ -12,6 +12,7 @@ Colors:
 }
 html{
     font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
     overflow: hidden;
 }
@@ -44,6 +45,34 @@ body {
     position: fixed;
     z-index: 999;
 }
+section{
+    padding: 10px 10px;
+    background: url(../images/mundial/logo.png)no-repeat;
+    background-size: contain;
+    margin: 0 20px;
+    height: 500px;
+    width: 500px;
+    overflow: visible;
+}
+article{
+    padding-top: 145px;
+    font-size: 24px;
+    color: #205881;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 120%;
+    letter-spacing: -1px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+font-style: italic;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
 /*Primary Navigation*/
 #primaryNav ul{
     display: none;
@@ -51,7 +80,7 @@ body {
 #primaryNav{
     width: 75px;
     height: 75px;
-    background-color: #007095;
+    background-color: #184f79;
 }
 
 
@@ -187,7 +216,7 @@ top: 25px;
     transform: rotate(-135deg);
 }
 #arrow:hover{
-    color: #007095;
+    color: #184f79;
 }
 
 
