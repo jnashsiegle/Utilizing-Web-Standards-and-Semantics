@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/landing.css" afterPath="$PROJECT_DIR$/landing/landing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/landing.html" afterPath="$PROJECT_DIR$/landing/landing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/navicon.css" afterPath="$PROJECT_DIR$/navigation/navicon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,21 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="landing.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/landing/landing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.33911884">
               <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navicon.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/navigation/navicon.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2216288">
-              <caret line="61" column="1" selection-start-line="10" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -119,9 +106,9 @@
         <option value="$PROJECT_DIR$/navigation/pie.html" />
         <option value="$PROJECT_DIR$/navigation/pie.css" />
         <option value="$PROJECT_DIR$/library.html" />
-        <option value="$PROJECT_DIR$/navigation/navicon.css" />
         <option value="$PROJECT_DIR$/landing/landing.html" />
         <option value="$PROJECT_DIR$/landing/landing.css" />
+        <option value="$PROJECT_DIR$/navigation/navicon.css" />
       </list>
     </option>
   </component>
@@ -674,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landing/landing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.833334">
@@ -692,8 +671,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/navigation/navicon.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2216288">
-          <caret line="61" column="1" selection-start-line="10" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.74098796">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/landing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33911884">
+          <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
           <folding />
         </state>
       </provider>

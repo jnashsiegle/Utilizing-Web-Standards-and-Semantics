@@ -27,7 +27,6 @@ Colors:
     background-color: blue;
 }
 
-
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
     cursor: pointer;
     border-radius: 1px;
@@ -37,7 +36,6 @@ Colors:
     position: absolute;
     display: block;
     content: '';
-
 }
 #primaryNav-toggle span{  /*builds the icon -1*/
     top: 25px;
