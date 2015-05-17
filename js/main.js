@@ -2,6 +2,9 @@
  * Created by janasiegle on 5/6/15.
  */
 
+
+
+
 $(document).ready(function () {
 
     $(window).scroll(function () {
@@ -20,3 +23,10 @@ $(document).ready(function () {
     });
 
 });
+document.querySelector( "#primaryNav-toggle" )
+    .addEventListener( "click", function() {
+        this.classList.toggle( "active" );
+    });
+
+
+

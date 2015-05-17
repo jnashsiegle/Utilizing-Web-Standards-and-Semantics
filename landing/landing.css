@@ -10,6 +10,9 @@ Colors:
 *, *:before, *:after {
     box-sizing: border-box;
 }
+a{
+    color: #f0f0f0;
+}
 html{
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -43,7 +46,6 @@ body {
     min-width: 100%;
     min-height: 100%;
     position: fixed;
-    z-index: 999;
 }
 section{
     padding: 10px 10px;
@@ -53,6 +55,8 @@ section{
     height: 500px;
     width: 500px;
     overflow: visible;
+    position: fixed;
+    z-index: -1;
 }
 article{
     padding-top: 145px;
@@ -67,23 +71,50 @@ article{
 }
 h2{
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-font-style: italic;
+    font-style: italic;
     font-variant: normal;
     font-weight: 400;
     line-height: 23px;
     padding-bottom: 20px;
 }
 /*Primary Navigation*/
-#primaryNav ul{
+#navigation{
     display: none;
+}
+#navigation li{
+    width: 70%;
+    border-top:1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+#navigation:target{
+    display: block;
+    background-color: #184f79;
+    color: #f0f0f0;
+    width: 475px;
+    height: 500px;
+    text-align: center;
+    padding-top: 75px;
+    padding-left: 100px;
+}
+#navigation li:first-child a{
+    border-top: 1px solid #f0f0f0;
+}
+#navigation a{
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: block;
+    line-height: 100%;
+    background: #184f79;
 }
 #primaryNav{
     width: 75px;
     height: 75px;
     background-color: #184f79;
 }
-
-
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
     cursor: pointer;
     border-radius: 1px;
@@ -104,6 +135,22 @@ top: 25px;
 #primaryNav-toggle span:after { /*builds the icon -3 */
     bottom: -20px;
 }
+/*let's make the X */
+#primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
+    transition: all 500ms ease-in-out;
+}
+#primaryNav-toggle.active span {
+    background-color: transparent;
+}
+#primaryNav-toggle.active span:before, #primaryNav-toggle.active span:after {
+    top: 0;
+}
+#primaryNav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#primaryNav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
  nav.secondNav.secondNavFill{
     background:rgba(240, 240, 240, 0.6);
     width: 40px;
@@ -117,7 +164,7 @@ top: 25px;
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-     z-index: 100;
+     z-index: -1;
 }
 /*Secondary Navigation*/
 .secondNav ul {
@@ -161,7 +208,6 @@ top: 25px;
     outline: none;
 }
 /* Filling */
-
 .secondNavFill li a {
     overflow: hidden;
     background-color: transparent;
@@ -181,12 +227,10 @@ top: 25px;
     -webkit-transition: height 0.3s ease;
     transition: height 0.3s ease;
 }
-
 .secondNavFill li a:hover,
 .secondNavFill li a:focus {
     background-color: rgba(19, 16, 114, .5);
 }
-
 .secondNavFill li.current a::after {
     height: 100%;
 }
@@ -218,8 +262,6 @@ top: 25px;
 #arrow:hover{
     color: #184f79;
 }
-
-
 /* =============================Media Queries */
 
 @media only screen and (max-width: 767px) {

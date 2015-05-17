@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/landing.css" afterPath="$PROJECT_DIR$/landing/landing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/landing.html" afterPath="$PROJECT_DIR$/landing/landing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/navicon.css" afterPath="$PROJECT_DIR$/navigation/navicon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/navicon.html" afterPath="$PROJECT_DIR$/navigation/navicon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/pie.css" afterPath="$PROJECT_DIR$/navigation/pie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/pie.html" afterPath="$PROJECT_DIR$/navigation/pie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +31,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="library.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.882353">
-              <caret line="37" column="75" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.49655172">
+              <caret line="275" column="218" selection-start-line="275" selection-start-column="218" selection-end-line="275" selection-end-column="218" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <file leaf-file-name="pie.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navigation/pie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35914552">
-              <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/landing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="38" column="26" selection-start-line="27" selection-start-column="7" selection-end-line="39" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/landing.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="152" column="1" selection-start-line="79" selection-start-column="0" selection-end-line="152" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pie.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navigation/pie.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="86" column="87" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -62,7 +99,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/normalize302.css" />
         <option value="$PROJECT_DIR$/about/about.css" />
         <option value="$PROJECT_DIR$/about/about.html" />
@@ -83,22 +119,24 @@
         <option value="$PROJECT_DIR$/features/features.html" />
         <option value="$PROJECT_DIR$/login/login.html" />
         <option value="$PROJECT_DIR$/login/registration.html" />
-        <option value="$PROJECT_DIR$/landing/landing.html" />
         <option value="$PROJECT_DIR$/footer1/footer.html" />
         <option value="$PROJECT_DIR$/footer1/footer.css" />
         <option value="$PROJECT_DIR$/header/navicon.html" />
-        <option value="$PROJECT_DIR$/landing/landing.css" />
         <option value="$PROJECT_DIR$/header/navicon.css" />
-        <option value="$PROJECT_DIR$/navigation/pie.html" />
-        <option value="$PROJECT_DIR$/navigation/navicon.css" />
-        <option value="$PROJECT_DIR$/navigation/pie.css" />
         <option value="$PROJECT_DIR$/navigation/navigation.css" />
         <option value="$PROJECT_DIR$/navigation/navigation.html" />
         <option value="$PROJECT_DIR$/header/header.html" />
         <option value="$PROJECT_DIR$/header/header.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/library.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/navigation/navicon.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/navigation/navicon.css" />
+        <option value="$PROJECT_DIR$/landing/landing.html" />
+        <option value="$PROJECT_DIR$/landing/landing.css" />
+        <option value="$PROJECT_DIR$/navigation/pie.html" />
+        <option value="$PROJECT_DIR$/navigation/pie.css" />
+        <option value="$PROJECT_DIR$/library.html" />
       </list>
     </option>
   </component>
@@ -110,8 +148,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="208" />
+    <option name="x" value="116" />
+    <option name="y" value="149" />
     <option name="width" value="1569" />
     <option name="height" value="846" />
   </component>
@@ -161,6 +199,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,25 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP-Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mundial" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,7 +304,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +386,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="208" width="1569" height="846" extended-state="0" />
+    <frame x="116" y="149" width="1569" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -487,13 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36048064">
           <caret line="3" column="2109" selection-start-line="3" selection-start-column="2109" selection-end-line="3" selection-end-column="2109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -654,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7610147">
           <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,47 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45517242">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/pie.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20026702">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/pie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35172415">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80106807">
-          <caret line="191" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="25" column="18" selection-start-line="15" selection-start-column="12" selection-end-line="25" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10344828">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,23 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.120160215">
           <caret line="6" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28965518">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,38 +695,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.125">
           <caret line="33" column="91" selection-start-line="33" selection-start-column="91" selection-end-line="33" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8598131">
+          <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5006676">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10344828">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/navigation/navicon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.12413793">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/navigation/navicon.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75967956">
+          <caret line="61" column="16" selection-start-line="51" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16021362">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="38" column="26" selection-start-line="27" selection-start-column="7" selection-end-line="39" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/pie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/pie.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="7" />
+          <caret line="86" column="87" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/landing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="152" column="1" selection-start-line="79" selection-start-column="0" selection-end-line="152" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.882353">
-          <caret line="37" column="75" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35914552">
-          <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.49655172">
+          <caret line="275" column="218" selection-start-line="275" selection-start-column="218" selection-end-line="275" selection-end-column="218" />
           <folding />
         </state>
       </provider>
