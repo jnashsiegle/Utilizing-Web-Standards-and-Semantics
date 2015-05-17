@@ -110,10 +110,23 @@ h2{
     line-height: 100%;
     background: #184f79;
 }
+#primaryNav ul{
+    display: none;
+}
 #primaryNav{
     width: 75px;
     height: 75px;
     background-color: #184f79;
+}
+#primaryNav:before{
+    width: 300px;
+    height: 75px;
+    background-color: #184f79;
+}
+#primaryNav:after{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
 }
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
     cursor: pointer;
@@ -126,7 +139,7 @@ h2{
     content: '';
 }
 #primaryNav-toggle span{  /*builds the icon -1*/
-top: 25px;
+    top: 25px;
     left: 13px;
 }
 #primaryNav-toggle span:before {   /*builds the icon -2 */

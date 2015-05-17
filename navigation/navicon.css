@@ -37,6 +37,7 @@ Colors:
     position: absolute;
     display: block;
     content: '';
+
 }
 #primaryNav-toggle span{  /*builds the icon -1*/
     top: 25px;
