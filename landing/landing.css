@@ -81,11 +81,6 @@ h2{
 #navigation{
     display: none;
 }
-#navigation li{
-    width: 70%;
-    border-top:1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
-}
 #navigation:target{
     display: block;
     background-color: #184f79;
@@ -101,6 +96,7 @@ h2{
 }
 #navigation a{
     padding: 15px;
+    width: 70%;
     border-bottom: 1px solid #f0f0f0;
     color: #f0f0f0;
     font-size: 21px;
