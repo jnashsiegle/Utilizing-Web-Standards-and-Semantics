@@ -1,9 +1,9 @@
 /*
 Colors:
-#938D79 = medium tan
-#54a663 - light grass green
-#bfc5bc - light gray
-#6D6442 - dark brownish green
-#fff - white
-#a92e14 - bright rust red for CTA's
+#2a4254 h2
+#5a5a5a body font, headers
+#750d00  links
 */
+section{
+    width: 75%;
+}

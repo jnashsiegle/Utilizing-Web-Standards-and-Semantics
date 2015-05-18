@@ -54,16 +54,14 @@ body {
     margin: 0 auto;
 }
 
-section{
-    background:#ffffff url("../images/8hour/1282790740about.jpg") no-repeat;
+section {
+    background: #ffffff url("../images/8hour/1282790740about.jpg") no-repeat;
     background-size: contain;
     width: 90%;
     margin: 0 auto;
     height: 1000px;
-    display: table;
 }
 article{
-    display: table-cell;
     width: 50%;
     float:left;
     padding-top:500px;
