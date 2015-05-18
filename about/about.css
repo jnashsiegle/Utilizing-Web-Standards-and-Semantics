@@ -1,9 +1,84 @@
 /*
 Colors:
-#938D79 = medium tan
-#54a663 - light grass green
-#bfc5bc - light gray
-#6D6442 - dark brownish green
-#fff - white
-#a92e14 - bright rust red for CTA's
+#e94235 - font and a red
+#000 - text black
+#f6f6f4 - body
+#bab198 - horizontal line
 */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+h2, a{
+    color: #e94235;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+h3{
+    font-size: 1.25em;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+}
+p{
+    font-size: 1.083em;
+    padding-bottom: 1em;
+    word-break: normal;
+    hyphens: auto;
+}
+a{
+    text-decoration: none;
+}
+section::after {        /*adding the clearfix as we don't want things to float if we add this to an existing page*/
+    content: "";
+    display: table;
+    clear: both;
+}
+h2{
+    font-size: 2em;
+    padding-bottom: .2em;
+}
+html{
+    font: 12px/1.5 Georgia, "Times New Roman", Times, serif;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f6f6f4;
+    color: #3d372d;
+    line-height: 1.5;
+    position: relative;
+    cursor: auto;
+    margin: 0 auto;
+}
+
+section{
+    background:#ffffff url("../images/8hour/1282790740about.jpg") no-repeat;
+    background-size: contain;
+    width: 90%;
+    margin: 0 auto;
+    height: 1000px;
+    display: table;
+}
+article{
+    display: table-cell;
+    width: 50%;
+    float:left;
+    padding-top:500px;
+    padding-left:40px;
+    padding-right: 40px;
+
+}
+.divider{
+    position:absolute;
+    left:50%;
+    top:50%;
+    bottom:27%;
+    border-left:1px solid #bab198;
+}
+#publication{
+    float:left;
+}
+
