@@ -4,6 +4,60 @@ Colors:
 #5a5a5a body font, headers
 #750d00  links
 */
-section{
-    width: 75%;
+ article::before, img::after{        /*adding the clearfix as we don't want things to float if we add this to an existing page*/
+    content: "";
+    display: inline-block;
+    clear: both;
 }
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: #5a5a5a;
+    line-height: 1.5em;
+}
+section, article{
+    width: calc(100% - 188px);
+    margin: 0 auto;
+}
+article{
+    border-bottom:1px solid #cccccc;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    overflow: hidden;
+}
+a {
+    color: #750d00;
+    text-decoration: none;
+}
+p:first-of-type{
+    margin-right:55px;
+}
+p a{
+    float: right;
+}
+h2{
+    font-size: 1.4em;
+    color:#2a4254;
+    padding-bottom: .75em;
+}
+figure{
+    margin:0;
+}
+img{
+    float:left;
+    width: 250px;
+    height: auto;
+    margin-right: 40px;
+}
+.wkSummary{
+    text-transform: uppercase;
+}
+blockquote{
+    display: inline-block;
+    font-style: italic;
+    overflow: auto;
+}
+
