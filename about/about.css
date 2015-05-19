@@ -6,8 +6,29 @@ Colors:
 #bab198 - horizontal line
 */
 
-*, *:before, *:after {
+* {
     box-sizing: border-box;
+}
+html{
+    font: 12px/1.5 Georgia, "Times New Roman", Times, serif;
+    height: 100%;
+}
+body {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f6f6f4;
+    color: #3d372d;
+    line-height: 1.5;
+    position: relative;
+    cursor: auto;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 2em;
+    padding-bottom: .2em;
 }
 h2, a{
     color: #e94235;
@@ -26,57 +47,34 @@ p{
     word-break: normal;
     hyphens: auto;
 }
-a{
-    text-decoration: none;
+
+/* SECTION ========== */
+section {
+    background: #ffffff url("../images/8hour/1282790740about.jpg") no-repeat;
+    background-size: contain;
+    width: 90%;
+    margin: 0 auto;
+
 }
 section::after {        /*adding the clearfix as we don't want things to float if we add this to an existing page*/
     content: "";
     display: table;
     clear: both;
 }
-h2{
-    font-size: 2em;
-    padding-bottom: .2em;
-}
-html{
-    font: 12px/1.5 Georgia, "Times New Roman", Times, serif;
-    height: 100%;
-    overflow: hidden;
-}
-body {
-    max-width: 1200px;
-    width: 100%;
-    background-color: #f6f6f4;
-    color: #3d372d;
-    line-height: 1.5;
-    position: relative;
-    cursor: auto;
-    margin: 0 auto;
-}
-
-section {
-    background: #ffffff url("../images/8hour/1282790740about.jpg") no-repeat;
-    background-size: contain;
-    width: 90%;
-    margin: 0 auto;
-    height: 1000px;
-}
-article{
+/* ARTICLE COLUMNS ========== */
+#about article{
     width: 50%;
     float:left;
-    padding-top:500px;
+    padding-top:400px;
     padding-left:40px;
     padding-right: 40px;
-
 }
 .divider{
     position:absolute;
     left:50%;
-    top:50%;
-    bottom:27%;
+    top:55%;
+    bottom: 7%;
     border-left:1px solid #bab198;
 }
-#publication{
-    float:left;
-}
+
 
