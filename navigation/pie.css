@@ -26,7 +26,7 @@ li{
     list-style-type: none;
 }
 
-/*Primary Navigation*/
+/*Primary Navigation Menu*/
 #navigation{
     display: none;
 }
@@ -59,6 +59,7 @@ li{
     line-height: 100%;
     background: #184f79;
 }
+/* Hamburger Icon */
 #primaryNav{
     width: 75px;
     height: 75px;
@@ -84,7 +85,7 @@ li{
 #primaryNav-toggle span:after { /*builds the icon -3 */
     bottom: -20px;
 }
-/*let's make the X     works by itself but can't incorporate into menu pop out.....see if can get help else move on*/
+/*let's make the X    */
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
     transition: all 500ms ease-in-out;
 }

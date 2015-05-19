@@ -7,6 +7,8 @@ Colors:
 ##184f79 - dark blue
 
 */
+
+
 nav.secondNav.secondNavFill{
     background:rgba(240, 240, 240, 0.6);
     width: 40px;
@@ -90,6 +92,3 @@ nav.secondNav.secondNavFill{
     background-color: rgba(19, 16, 114, .5);
 }
 
-.secondNavFill li.current a::after {
-    height: 100%;
-}
