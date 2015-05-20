@@ -29,9 +29,12 @@ a{
     text-decoration: none;
 }
 #gallery{
-    width:75%;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
 }
 .background {
+    display: inline-block;
     background: url("../images/foto8/photo.jpg") no-repeat top left;
     background-size: contain;
     width: 280px;
@@ -79,9 +82,11 @@ img{
 }
 .pagination {
     background: transparent;
-    padding: 3px 6px;
-    margin-bottom: 20px;
     text-align: center;
+}
+div{
+    width: 100%;
+    margin: 0 auto;
 }
 .page {
     display: inline-block;
@@ -95,7 +100,7 @@ img{
     text-decoration: none;
     color: #111111;
 }
-.page:hover, .page.gradient:hover {
+.page:hover{
     background: #f7f7f7;
 }
 .page.active {
