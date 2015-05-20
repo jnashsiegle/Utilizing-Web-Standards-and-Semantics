@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cta/cta.css" afterPath="$PROJECT_DIR$/cta/cta.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cta/cta.html" afterPath="$PROJECT_DIR$/cta/cta.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cta.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cta/cta.css">
+      <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20026702">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cta.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cta/cta.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.4413793">
+              <caret line="143" column="242" selection-start-line="143" selection-start-column="242" selection-end-line="143" selection-end-column="242" />
               <folding />
             </state>
           </provider>
@@ -96,10 +85,10 @@
         <option value="$PROJECT_DIR$/navigation/pie.css" />
         <option value="$PROJECT_DIR$/contact/contact.html" />
         <option value="$PROJECT_DIR$/contact/contact.css" />
-        <option value="$PROJECT_DIR$/library.html" />
         <option value="$PROJECT_DIR$/landing/landing.html" />
         <option value="$PROJECT_DIR$/cta/cta.html" />
         <option value="$PROJECT_DIR$/cta/cta.css" />
+        <option value="$PROJECT_DIR$/library.html" />
       </list>
     </option>
   </component>
@@ -634,14 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51586205">
-          <caret line="211" column="46" selection-start-line="211" selection-start-column="46" selection-end-line="211" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landing/landing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14344828">
@@ -678,6 +659,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20026702">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4413793">
+          <caret line="143" column="242" selection-start-line="143" selection-start-column="242" selection-end-line="143" selection-end-column="242" />
           <folding />
         </state>
       </provider>
