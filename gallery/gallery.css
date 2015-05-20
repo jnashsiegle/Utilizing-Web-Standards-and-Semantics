@@ -1,9 +1,105 @@
 /*
 Colors:
-#938D79 = medium tan
-#54a663 - light grass green
-#bfc5bc - light gray
-#6D6442 - dark brownish green
-#fff - white
-#a92e14 - bright rust red for CTA's
+#f0f0f0 - main background color
+#ececec - ind pic background color
+#f7f7f7 - frame color
+#111111 - font color
+#888888 - a and date color
+f7f7f7 - button light background color
+#d7d7d7 - button background
 */
+
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #111111;
+    line-height: 1.5;
+    position: relative;
+    cursor: auto;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#gallery{
+    width:75%;
+}
+.background {
+    background: url("../images/foto8/photo.jpg") no-repeat top left;
+    background-size: contain;
+    width: 280px;
+    height: 310px;
+    padding: 15px 20px 40px 10px;
+    display: inline-block;
+    margin: 15px auto 0 auto;
+    overflow: hidden;
+}
+figure{
+    width: 225px;
+    height: 180px;
+    padding: 0 0 6px 0;
+    margin: 15px auto 0 auto;
+}
+img{
+    padding-left: 2px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+#gallery p, #gallery time, #pages{
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: .750em;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    text-align: left;
+}
+#gallery p{
+    padding-bottom: 15px;
+}
+#gallery p::first-letter{
+    font-weight: bold;  /*Closes possible without going into jquery due to not being able to select first letter of every word unless we span every one*/
+}
+#gallery time{
+    font-size: .625em;
+    color: #888888;
+}
+/*============ PAGINATION ========= */
+.btn {
+    display: inline-block;
+    padding: 5px 0;
+    border-radius: 2px; /*optional*/
+    color: #d7d7d7;
+    font-size: .750em;
+}
+.pagination {
+    background: transparent;
+    padding: 3px 6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.page {
+    display: inline-block;
+    padding: 0 9px;
+    margin-right: 4px;
+    border-radius: 3px;
+    border: solid 1px #c0c0c0;
+    background: #e7e7e7;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: .750em;
+    text-decoration: none;
+    color: #111111;
+}
+.page:hover, .page.gradient:hover {
+    background: #f7f7f7;
+}
+.page.active {
+    background: #f7f7f7;
+    color: #111111;
+    border: solid 1px #c0c0c0;
+}
