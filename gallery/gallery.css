@@ -43,6 +43,7 @@ a{
     display: inline-block;
     margin: 15px auto 0 auto;
     overflow: hidden;
+    text-align: left;
 }
 figure{
     width: 225px;
@@ -55,12 +56,11 @@ img{
     padding-bottom: 10px;
     border-radius: 15px;
 }
-#gallery p, #gallery time, #pages{
+#gallery p, #pages{
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: .750em;
     letter-spacing: 2px;
     font-variant: small-caps;
-    text-align: left;
 }
 #gallery p{
     padding-bottom: 15px;
@@ -68,7 +68,7 @@ img{
 #gallery p::first-letter{
     font-weight: bold;  /*Closes possible without going into jquery due to not being able to select first letter of every word unless we span every one*/
 }
-#gallery time{
+time{
     font-size: .625em;
     color: #888888;
 }
