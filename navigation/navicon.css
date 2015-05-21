@@ -26,16 +26,15 @@ Colors:
     display: block;
     content: '';
 }
-#primaryNav-toggle span{  /*builds the icon -1*/
+#primaryNav-toggle span{  /*builds the icon position -1*/
     top: 25px;
     left: 13px;
 }
-#primaryNav-toggle span:before {   /*builds the icon -2 */
+#primaryNav-toggle span:before {   /*builds the icon position -2 */
     top: 10px;
 }
 #primaryNav-toggle span:after { /*builds the icon -3 */
-    bottom: -20px;
-}
+    bottom: -20px;}
 
 /*let's make the X */
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {

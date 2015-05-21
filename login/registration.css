@@ -58,13 +58,14 @@ p   {
 li{
     list-style-type: none;
 }
+/*filling in the article background color fully regardless of article height*/
 div{
     background-color: #ffffff;
 }
 .bold{
     font-weight: bold;
 }
-div::after {
+div::after {         /*clear so the footer background shows up #registration article */
     content: "";
     display: table;
     clear: both;
@@ -88,14 +89,13 @@ header{
     width: 50%;
     background-color: #ffffff;
     float: left;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0 100px 0;
     margin: 0 auto;
     text-align: center;
 }
 .divider{
     position:absolute;
-    left:50%;
+    left: 50%;
     top: 32.5%;
     bottom: 10%;
     border-left:1px solid #bab198;
@@ -106,7 +106,7 @@ form{
 input[type="submit" ] {
     height: 50px;
     width: 86px;
-     padding-left: 10px;
+    padding-left: 10px;
     background-color: #ff8500;
     color: #ffffff;
 }
@@ -118,8 +118,7 @@ input[type=text]{
     border: 1px solid #eeeeee;
 }
 button{
-    background: #5b71a7 url(../images/jetsetter/fb.png);
-
+    background: #5b71a7 url(../images/jetsetter/fb.png);   /*facebook button */
     width: 317px;
     height:50px;
     margin-top: 20px;
@@ -132,7 +131,10 @@ footer{
     background: #ecede9;
     border-top: 1px solid #dedfdb;
 }
-
+ul, li{
+    display: inline-block;
+    clear: both;
+}
 footer li{
     display: inline-block;
     clear: both;
@@ -141,10 +143,6 @@ footer li{
     font-size: 14px;
     color: #666666;
     margin: 45px 0 0 150px;
-}
-ul, li{
-    display: inline-block;
-    clear: both;
 }
 footer li:last-of-type{
     display:inline-block;
