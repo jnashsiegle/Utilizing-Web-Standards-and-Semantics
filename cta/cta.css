@@ -16,7 +16,6 @@ Colors:
 * {
     box-sizing: border-box;
 }
-
 body{
     max-width: 1200px;
     background:#000000 url("../images/bgim-bg.jpg")no-repeat center fixed;
@@ -24,6 +23,7 @@ body{
     font-family: 'Roboto',Helvetica Neue,Arial,sans-serif;
     color: #222;
     line-height: 1.5em;
+    margin: 0 auto;
 }
 section{
     width: 85%;
@@ -48,7 +48,7 @@ a {
     margin-bottom: 20px;
 }
 #cta h1, #cta h3{
-font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-style: italic;
     font-weight: bold;
     color: #f7f7f7;
@@ -62,13 +62,11 @@ a.button{
     background-color: #47b4f0;
     padding: 20px 95px;
     border-radius: 10px;
-
 }
 .icon {
     display: inline-block;
     width: 1em;
     height: 1em;
-
 }
 
 .icon-arrow-with-circle-down:before {
