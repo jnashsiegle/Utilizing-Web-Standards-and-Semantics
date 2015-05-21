@@ -3,16 +3,19 @@
 <head>
     <meta charset = "UTF-8">
     <title> Build-Registration </title>
-    <!--<link rel = "stylesheet" href = "../css/normalize302.css">-->
+    <link rel = "stylesheet" href = "../css/normalize302.css">
     <link rel = "stylesheet" href = "registration.css">
     <script src = "../js/modernizr.custom.01351.js"></script>
     <script src = "../js/respond.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-    <section>
-            <h2>Jetsetter</h2>
+    <section id = "registration">
+        <header>
+            <h2><span class = "bold">Jet</span>setter</h2>
             <p>The world&apos;s greatest vacations. Members&hyphen;only prices.</p>
+        </header>
+<div>
         <article>
             <p>Get access to the worlds greatest</p>
             <p>vacations. Membership is free.</p>
@@ -21,15 +24,18 @@
                     <input type = "submit" name = "submit" id = "submit" value = "Enter">
                 </form>
         </article>
+
+        <div class = "divider"></div>
         <article>
             <p>Connect with Facebook for a more</p>
             <p>personalized Jetsetter experience.</p>
-            <button>Facebook Connect</button>  <!--due to this being an action of signing in with facebook account I chose button.  But as this takes a particular code from facebook to do anyway, it is more a placeholder that will be replaced during actual use with the facebook js etc -->
-        </article>
+            <button></button>  <!--due to this being an action of signing in with facebook account I chose button.  But as this takes a particular code from facebook to do anyway, it is more a placeholder that will be replaced during actual use with the facebook js etc -->
+        </article></div>
         <footer>
+
             <ul>
-                <li>Already registered? <a href = "">Login</a></li>
-                <li>By signing up you agree to all Jetsetter terms of membership.</li>
+                <li id = "user">Already registered? <a href = "">Login</a></li>
+                <li>By signing up you agree to all Jetsetter  <a id = "terms" href = "">terms of membership.</a></li>
             </ul>
         </footer>
     </section>

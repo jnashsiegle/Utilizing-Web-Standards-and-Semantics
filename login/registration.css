@@ -1,9 +1,173 @@
 /*
 Colors:
-#938D79 = medium tan
-#54a663 - light grass green
-#bfc5bc - light gray
-#6D6442 - dark brownish green
-#fff - white
-#a92e14 - bright rust red for CTA's
+#ecede9 - header background color/ footer background color/ input field background
+#ff8500 - enter button
+#5b71a7 - facebook blue
+#ffffff - button text
+#343434 - Jetsetter h1 color
+#3d372d; - body text
 */
+
+@font-face {
+    font-family: 'TenorSans';
+    src: url('../fonts/TenorSans-Regular.eot');
+    src: url('../fonts/TenorSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TenorSans-Regular.woff') format('woff'),
+    url('../fonts/TenorSans-Regular.ttf') format('truetype'),
+    url('../fonts/TenorSans-Regular.svg#TenorSans') format('svg');
+}
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    font-size: 18px;
+    font-family: 'TenorSans',sans-serif;
+}
+body {
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f6f6f4;
+    color: #3d372d;
+    position: relative;
+    cursor: auto;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #ff8700;
+}
+li a#terms{
+    color: #000000;
+    font-weight: bolder;
+}
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    padding: 30px 0 0 0;
+    margin-bottom: 0;
+}
+p   {
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+div{
+    background-color: #ffffff;
+}
+.bold{
+    font-weight: bold;
+}
+div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+section {
+    width: 100%;
+    max-width: 910px;
+    height: 557px;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 182px;
+    background-color: #ecede9;
+    border-bottom: 1px solid #dedfdb;
+    text-align: center;
+    margin: 0 auto;
+}
+#registration article{
+    width: 50%;
+    background-color: #ffffff;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.divider{
+    position:absolute;
+    left:50%;
+    top: 32.5%;
+    bottom: 10%;
+    border-left:1px solid #bab198;
+}
+form{
+    margin-top:20px;
+}
+input[type="submit" ] {
+    height: 50px;
+    width: 86px;
+     padding-left: 10px;
+    background-color: #ff8500;
+    color: #ffffff;
+}
+input[type=text]{
+    height: 50px;
+    width: 211px;
+    padding: 0;
+    background-color: #ecede9;
+    border: 1px solid #eeeeee;
+}
+button{
+    background: #5b71a7 url(../images/jetsetter/fb.png);
+
+    width: 317px;
+    height:50px;
+    margin-top: 20px;
+}
+footer{
+    display: block;
+    max-width: 910px;
+    width: 100%;
+    height: 90px;
+    background: #ecede9;
+    border-top: 1px solid #dedfdb;
+}
+
+footer li{
+    display: inline-block;
+    clear: both;
+    background-size: 30px 30px;
+    height: 50px;
+    font-size: 14px;
+    color: #666666;
+    margin: 45px 0 0 150px;
+}
+ul, li{
+    display: inline-block;
+    clear: both;
+}
+footer li:last-of-type{
+    display:inline-block;
+    float:right;
+    clear: both;
+}
+::-webkit-input-placeholder {    /*checked padding and it's not in way....but if font is bigger it cuts off */
+    color: #cccccc;
+    font-size: 16px;
+    padding-left: 20px;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #cccccc;
+    font-size: 16px;
+    padding-left: 20px;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #cccccc;
+    font-size: 16px;
+    padding-left: 20px;
+}
+:-ms-input-placeholder {
+    color: #cccccc;
+    font-size: 16px;
+    padding-left: 20px;
+}
