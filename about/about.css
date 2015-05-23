@@ -49,11 +49,14 @@ p{
 }
 
 /* SECTION ========== */
-section {
-    background: #ffffff url("../images/8hour/1282790740about.jpg") no-repeat;
+header {
+    background: #ffffff
     background-size: contain;
     width: 90%;
     margin: 0 auto;
+}
+section {
+
 
 }
 section::after{
@@ -62,19 +65,15 @@ section::after{
     clear: both;
 }
 /* ARTICLE COLUMNS ========== */
-#about article{
+article{
     width: 50%;
     float:left;
-    padding-top:500px;
-    padding-left:40px;
-    padding-right: 40px;
+    padding-top:30px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+article:first-of-type {
+    border-right: 1px solid #bab198;
 }
 
 
-.divider{
-    position:absolute;
-    left:50%;
-    top:65%;
-    bottom: 5%;
-    border-left:1px solid #bab198;
-}
