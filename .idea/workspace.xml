@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/about.css" afterPath="$PROJECT_DIR$/about/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/about.html" afterPath="$PROJECT_DIR$/about/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/contact.css" afterPath="$PROJECT_DIR$/contact/contact.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/contact.html" afterPath="$PROJECT_DIR$/contact/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer/footer.css" afterPath="$PROJECT_DIR$/footer/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer_arrow/footer.css" afterPath="$PROJECT_DIR$/footer_arrow/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer/footer.html" afterPath="$PROJECT_DIR$/footer/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer_arrow/footer.html" afterPath="$PROJECT_DIR$/footer_arrow/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/landing.css" afterPath="$PROJECT_DIR$/landing/landing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/landing.html" afterPath="$PROJECT_DIR$/landing/landing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +26,8 @@
       <file leaf-file-name="library.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28696606">
-              <caret line="252" column="117" selection-start-line="252" selection-start-column="117" selection-end-line="252" selection-end-column="117" />
+            <state vertical-scroll-proportion="0.40197152">
+              <caret line="258" column="371" selection-start-line="258" selection-start-column="371" selection-end-line="258" selection-end-column="371" />
               <folding />
             </state>
           </provider>
@@ -730,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28696606">
-          <caret line="252" column="117" selection-start-line="252" selection-start-column="117" selection-end-line="252" selection-end-column="117" />
+        <state vertical-scroll-proportion="0.40197152">
+          <caret line="258" column="371" selection-start-line="258" selection-start-column="371" selection-end-line="258" selection-end-column="371" />
           <folding />
         </state>
       </provider>
