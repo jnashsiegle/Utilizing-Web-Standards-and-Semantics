@@ -12,6 +12,7 @@ Colors:
 html{
     font: 12px/1.5 Georgia, "Times New Roman", Times, serif;
     height: 100%;
+    margin: 0 auto;
 }
 body {
     max-width: 1200px;
@@ -47,17 +48,20 @@ p{
     word-break: normal;
     hyphens: auto;
 }
-
 /* SECTION ========== */
 header {
-    background: #ffffff
-    background-size: contain;
+    background-color: #ffffff;
     width: 90%;
     margin: 0 auto;
+    line-height: 1;
+}
+img {
+    width: 1080px;
 }
 section {
-
-
+    width: 90%;
+    background: #ffffff;
+    margin: 0 auto;
 }
 section::after{
     content: "";
@@ -69,8 +73,8 @@ article{
     width: 50%;
     float:left;
     padding-top:30px;
-    padding-left:100px;
-    padding-right: 100px;
+    padding-left:75px;
+    padding-right: 75px;
 }
 article:first-of-type {
     border-right: 1px solid #bab198;
