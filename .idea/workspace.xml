@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc998737-e2d9-4ee9-86e3-5fd36172dfd9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.html" afterPath="$PROJECT_DIR$/library.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/pie.css" afterPath="$PROJECT_DIR$/navigation/pie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/pie.html" afterPath="$PROJECT_DIR$/navigation/pie.html" />
     </list>
     <ignored path="WSP-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/library.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33295712">
-              <caret line="119" column="252" selection-start-line="119" selection-start-column="252" selection-end-line="119" selection-end-column="252" />
+              <caret line="270" column="71" selection-start-line="270" selection-start-column="71" selection-end-line="270" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -111,8 +109,8 @@
         <option value="$PROJECT_DIR$/navigation/navigation.html" />
         <option value="$PROJECT_DIR$/navigation/navigation.css" />
         <option value="$PROJECT_DIR$/navigation/pie.html" />
-        <option value="$PROJECT_DIR$/library.html" />
         <option value="$PROJECT_DIR$/navigation/pie.css" />
+        <option value="$PROJECT_DIR$/library.html" />
       </list>
     </option>
   </component>
@@ -770,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/library.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33295712">
-          <caret line="119" column="252" selection-start-line="119" selection-start-column="252" selection-end-line="119" selection-end-column="252" />
+          <caret line="270" column="71" selection-start-line="270" selection-start-column="71" selection-end-line="270" selection-end-column="71" />
           <folding />
         </state>
       </provider>
