@@ -7,8 +7,13 @@ Colors:
     box-sizing: border-box;
 }
 a{
+    display: inline-block;
+    text-align: center;
     text-decoration: none;
     color: #184f79;
+    top: 5%;                       /*pt1 of center that image - finally */
+    transform: translateY(120%);
+
 }
 html, body{
     min-height: 100%;
@@ -18,16 +23,15 @@ html, body{
 }
 body {
     background-color: #ffffff;
+    width: 90%;
     color: #205881;
     line-height: 1.5;
     cursor: auto;
-}
-section{
-    width: 90%;
-    min-height: 100%;
     margin: 0 auto;
 }
+
 footer{
+    display: inline-block;
     font-family: "Open Sans", sans-serif;
     width: 90%;
     height: 85px;
@@ -37,39 +41,30 @@ footer{
     text-align: center;
     background-color: #f9f9f9;
 }
-p{
-    display: table;
-    height: 100%;
-    width:100%;
-    vertical-align: middle;
-}
-span{
-    display: table-cell;
-    width: 75%;
+address{
+    display: inline-block;
+    width: 25%;
     text-transform: uppercase;
     font-size: 90%;
     text-align: center;
-    vertical-align: middle;
+    top: 50%;
+    transform: translateY(130%);
     margin-right: -50px;
 }
 img:first-child{
     float:left;
     padding-left: 130px;
     position: relative;
-    top: 50%;                       /*pt1 of center that image - finally */
+    top: 7%;                       /*pt1 of center that image - finally */
     transform: translateY(15%);  /*center that image - finally!*/
+
 }
 img:last-child{
-
+    float: right;
     padding-right: 130px;
     position: relative;
-    top: 50%;                       /*pt1 of center that image - finally */
-    transform: translateY(-90%);
+    top: 35%;
+    transform: translateY(10%);
 
 }
 
-/*img:nth-of-type(2n)::before {
-    content: "";
-    display: table;
-    clear: both;
-}*/

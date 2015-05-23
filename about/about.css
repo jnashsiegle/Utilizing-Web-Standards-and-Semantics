@@ -56,7 +56,7 @@ section {
     margin: 0 auto;
 
 }
-section::after {
+section::after{
     content: "";
     display: table;
     clear: both;
@@ -69,6 +69,8 @@ section::after {
     padding-left:40px;
     padding-right: 40px;
 }
+
+
 .divider{
     position:absolute;
     left:50%;
@@ -76,5 +78,3 @@ section::after {
     bottom: 5%;
     border-left:1px solid #bab198;
 }
-
-
