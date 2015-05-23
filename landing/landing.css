@@ -71,7 +71,7 @@ h2{
     margin-top: 20px;
     padding-bottom: 20px;
 }
-/*Primary Navigation Pop Out Menu*/
+/* ===========  STYLE FOR Pop Out Menu------------*/
 #navigation{
     display: none;
 }
@@ -100,10 +100,13 @@ h2{
     line-height: 100%;
     background: #184f79;
 }
-#primaryNav ul{
+/* ====================== END POP OUT MENU ==================*/
+ul:last-of-type{            /*LET'S HIDE THE LIST */
     display: none;
 }
-#primaryNav{
+
+/* ==================LET'S MAKE THE HAMBURGER ICON =========== */
+nav:first-of-type{     /*SET THE BACKGROUND */
     width: 75px;
     height: 75px;
     background-color: #184f79;
@@ -144,7 +147,9 @@ h2{
 #primaryNav-toggle.active span:after {
     transform: rotate(-45deg);
 }
- nav.secondNav.secondNavFill{
+/* =========================END ICON BUILDING =========================== */
+
+ nav#secondNavFill{
     background:rgba(240, 240, 240, 0.6);
     width: 40px;
     height: 100%;
@@ -160,7 +165,7 @@ h2{
     z-index: -1;
 }
 /*Secondary Navigation*/
-.secondNav ul {
+ul:last-of-type {
     position: relative;
     display: inline-block;
     bottom: -70%;
@@ -175,7 +180,7 @@ h2{
     -ms-user-select: none;
     user-select: none;
 }
-.secondNav li {
+ul:last-of-type li {
     position: relative;
     display: block;
     margin: 7px 16px;
@@ -184,7 +189,7 @@ h2{
     cursor: pointer;
     vertical-align: middle;
 }
-.secondNav li a {
+ul:last-of-type li a {
     top: 50%;
     right: 60%;
     width: 100%;
@@ -197,18 +202,18 @@ h2{
     cursor: pointer;
     position: absolute;
 }
-.secondNav li a:focus {
+ul:last-of-type li a:focus {
     outline: none;
 }
 /* Filling */
-.secondNavFill li a {
+#secondNavFill li a {
     overflow: hidden;
     background-color: transparent;
     box-shadow: inset 0 0 0 2px rgba(0, 112, 149, .5);
     -webkit-transition: background 0.3s ease;
     transition: background 0.3s ease;
 }
-.secondNavFill li a::after {
+#secondNavFill li a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -220,11 +225,11 @@ h2{
     -webkit-transition: height 0.3s ease;
     transition: height 0.3s ease;
 }
-.secondNavFill li a:hover,
-.secondNavFill li a:focus {
+#secondNavFill li a:hover,
+#secondNavFill li a:focus {
     background-color: rgba(19, 16, 114, .5);
 }
-.secondNavFill li.current a::after {
+#secondNavFill li.current a::after {
     height: 100%;
 }
 /*Footer */
@@ -242,7 +247,7 @@ footer {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-#arrow{
+footer p{
     font-size: 5em;
     color:#350001;
     padding-left: 65px;
@@ -252,7 +257,7 @@ footer {
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
-#arrow:hover{
+footer p:hover{
     color: #184f79;
 }
 /* =============================Media Queries */

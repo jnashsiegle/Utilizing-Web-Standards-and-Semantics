@@ -13,8 +13,31 @@
 <body>
     <div id = "frame"> <!--Needed for "frame" of Page via border CSS -->
            <!--to be positioned via css to be in bottom right corner, vertically -->
-            <!--Side Navigation -->
-            <nav class = "secondNav secondNavFill"> <!--Dots-->
+        <!--Primary Navigation -->
+        <a id="primaryNav-toggle" href="#navigation"><span></span></a>
+        <nav>
+            <ul id = "navigation">
+                <li><a href="../index.html" >Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">How We Operate</a></li>
+                <li><a href="">Solutions</a></li>
+                <li><a href="">Certifications</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!--End Primary Navigation -->
+
+        <!--content -->
+        <article>
+            <img src = "../images/mundial/logo.png" alt = "MUNDIAL LOGO">
+            <h2>Mundial Asset Management</h2>
+            <p>Discretion, transparency and high added</p>
+            <p>value. A multi family office that always thinks</p>
+            <p>ahead to build the future.</p>
+        </article>
+
+        <!--Side Navigation -->
+            <nav id = "secondNavFill"> <!--Dots-->
                 <ul>
                     <li class = ""><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
@@ -25,31 +48,11 @@
                 </ul>
             </nav>
         <!--End Side Navigation -->
-        <!--Primary Navigation -->
-            <a id="primaryNav-toggle" href="#navigation"><span></span></a>
-                     <nav id = "primaryNav">
-                        <ul id = "navigation">
-                            <li><a href="../index.html" >Home</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">How We Operate</a></li>
-                            <li><a href="">Solutions</a></li>
-                            <li><a href="">Certifications</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </nav>
-        <!--End Primary Navigation -->
 
-                    <article>
-                        <img src = "../images/mundial/logo.png" alt = "MUNDIAL LOGO">
-                    <h2>Mundial Asset Management</h2>
-                    <p>Discretion, transparency and high added</p>
-                    <p>value. A multi family office that always thinks</p>
-                    <p>ahead to build the future.</p>
-                    </article>
 
         <!--Footer Scroll to next Section Link -->
         <footer>
-            <a href = "#"><p id = "arrow">&lang;</p></a> <!--positioned/rotated to point down and background via css -->
+            <a href = "#"><p>&lang;</p></a> <!--positioned/rotated to point down and background via css -->
         </footer>
     </div> <!--end of wrapper-->
     <script src = "../js/jquery-2.1.3.min.js"></script>
