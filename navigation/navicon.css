@@ -8,10 +8,10 @@ Colors:
 
 */
 /*Primary Navigation*/
-#primaryNav ul{
+ul{
     display: none;
 }
-#primaryNav{
+nav{
     width: 75px;
     height: 75px;
     background-color: #184f79;
