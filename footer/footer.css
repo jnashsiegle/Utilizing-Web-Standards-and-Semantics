@@ -11,60 +11,39 @@ a{
     text-align: center;
     text-decoration: none;
     color: #184f79;
-    top: 5%;                       /*pt1 of center that image - finally */
-    transform: translateY(120%);
-
 }
 html, body{
     min-height: 100%;
     max-width: 1200px;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 100%;
 }
 body {
     background-color: #ffffff;
-    width: 90%;
     color: #205881;
     line-height: 1.5;
-    cursor: auto;
-    margin: 0 auto;
 }
-
 footer{
-    display: inline-block;
-    font-family: "Open Sans", sans-serif;
     width: 90%;
-    height: 85px;
     position: fixed;
     bottom: 0;
-    margin: 0 auto;
+    left: 5%;
+    padding: 10px 10px 0 10px;
     text-align: center;
     background-color: #f9f9f9;
-}
-address{
-    display: inline-block;
-    width: 25%;
     text-transform: uppercase;
-    font-size: 90%;
-    text-align: center;
-    top: 50%;
-    transform: translateY(130%);
-    margin-right: -50px;
 }
-img:first-child{
-    float:left;
-    padding-left: 130px;
-    position: relative;
-    top: 7%;                       /*pt1 of center that image - finally */
-    transform: translateY(15%);  /*center that image - finally!*/
-
+footer li{
+    display: inline-block;
+    margin: 30px 0;
+    line-height: 1;
 }
-img:last-child{
+footer li:first-of-type{   /*img */
+    float: left;
+    margin: 5px 10px;
+}
+footer li:last-of-type{
     float: right;
-    padding-right: 130px;
-    position: relative;
-    top: 35%;
-    transform: translateY(10%);
-
 }
+
 

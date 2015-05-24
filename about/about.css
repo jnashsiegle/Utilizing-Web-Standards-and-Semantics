@@ -56,10 +56,14 @@ header {
     line-height: 1;
 }
 img {
-    width: 1080px;
+    width: calc(100% + 100px);
+    position: relative;
+    top:-50px;
+    left:-50px;
 }
 section {
     width: 90%;
+    padding: 50px;
     background: #ffffff;
     margin: 0 auto;
 }
@@ -69,15 +73,17 @@ section::after{
     clear: both;
 }
 /* ARTICLE COLUMNS ========== */
-article{
+article {
     width: 50%;
     float:left;
-    padding-top:30px;
-    padding-left:75px;
-    padding-right: 75px;
+}
+article:last-of-type {
+    padding-left: 40px;
+
 }
 article:first-of-type {
     border-right: 1px solid #bab198;
+    padding-right: 40px;
 }
 
 

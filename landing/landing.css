@@ -74,9 +74,12 @@ h2{
 /* ===========  STYLE FOR Pop Out Menu------------*/
 #navigation{
     display: none;
+
 }
 #navigation:target{
     display: block;
+    padding: 15px;
+    margin-top: 45px;
     background-color: #184f79;
     color: #f0f0f0;
     width: 475px;
@@ -89,7 +92,7 @@ h2{
     border-top: 1px solid #f0f0f0;
 }
 #navigation a{
-    padding: 15px;
+
     width: 70%;
     border-bottom: 1px solid #f0f0f0;
     color: #f0f0f0;
@@ -132,6 +135,7 @@ nav:first-of-type{     /*SET THE BACKGROUND */
     bottom: -20px;
 }
 /*let's make the X */
+
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
     transition: all 500ms ease-in-out;
 }
@@ -147,6 +151,7 @@ nav:first-of-type{     /*SET THE BACKGROUND */
 #primaryNav-toggle.active span:after {
     transform: rotate(-45deg);
 }
+
 /* =========================END ICON BUILDING =========================== */
 
  nav#secondNavFill{
@@ -165,6 +170,7 @@ nav:first-of-type{     /*SET THE BACKGROUND */
     z-index: -1;
 }
 /*Secondary Navigation*/
+
 ul:last-of-type {
     position: relative;
     display: inline-block;
@@ -205,7 +211,9 @@ ul:last-of-type li a {
 ul:last-of-type li a:focus {
     outline: none;
 }
+
 /* Filling */
+
 #secondNavFill li a {
     overflow: hidden;
     background-color: transparent;
@@ -232,7 +240,9 @@ ul:last-of-type li a:focus {
 #secondNavFill li.current a::after {
     height: 100%;
 }
+
 /*Footer */
+
 footer {
     width: 100px;
     height: 100px;
@@ -260,11 +270,6 @@ footer p{
 footer p:hover{
     color: #184f79;
 }
-/* =============================Media Queries */
 
-@media only screen and (max-width: 767px) {
-    body {
 
-        background-image: url(../images/mundial/bg-home-small.jpg);  /*7% size of orignal*/
-    }
-}
+
