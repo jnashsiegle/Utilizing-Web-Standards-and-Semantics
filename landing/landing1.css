@@ -10,17 +10,26 @@ Colors:
     margin: 0;
     padding: 0;
 }
-body {
-    background: #ffffff;
-    overflow: hidden;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
-a{
+a {
+    color: #131072;
     text-decoration: none;
+}
+html {
+    height: 100%;
 }
 li {
     list-style-type: none;
 }
-
+body {   
+    background: #ffffff;
+    overflow: hidden;
+    border: 1px solid red;
+    position: relative;
+    height: 100%;
+}
 /* ===========  STYLE FOR Pop Out Menu------------*/
 header #navigation{
     display: none;
@@ -30,12 +39,12 @@ header #navigation:target{
     background-color: #184f79;
     width: 475px;
     height: 300px;
-    padding-top: 45px;
-    padding-left: 100px;
-    margin-top: 45px;
+    padding-top: 145px;
+    padding-left: 200px;
+    margin-top: 40px;
     color: #f0f0f0;
     text-align: center;
-
+    border: 2px solid blue;
 }
 header #navigation li:first-child a{
     border-top: 1px solid #f0f0f0;
@@ -51,7 +60,6 @@ header #navigation a{
     text-transform: uppercase;
     font-weight: 300;
     line-height: 100%;
-
 }
 /* ====================== END POP OUT MENU ==================*/
 
@@ -63,7 +71,6 @@ header nav{     /*SET THE BACKGROUND */
     background-color: #184f79;
     margin-top:40px;
     margin-left: 40px;
-
 }
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
     cursor: pointer;
@@ -78,7 +85,6 @@ header nav{     /*SET THE BACKGROUND */
 #primaryNav-toggle span{  /*builds the icon -1*/
     top: 65px;
     left: 53px;
-
 }
 #primaryNav-toggle span:before {   /*builds the icon -2 */
     top: 10px;
@@ -111,16 +117,28 @@ header nav{     /*SET THE BACKGROUND */
     width: calc(100% - 80px);
     height: calc(100% - 80px);
     margin: 0 auto;
+    color: #131072;
     padding: 50px 66% 50px 50px;
     text-align: center;
     background: url("../images/mundial/bg-home.jpg") no-repeat center center;
     background-size: cover;
     z-index: -1;
+    border: 3px solid green;
+}
+h2{
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bolder;
+    color: #0166ad;
+    line-height: 23px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 section footer {
     position: absolute;
     left: calc(50% - 30px);
-    bottom: -30px;
+    bottom: -32px;
     width: 60px;
     height: 60px;
     background: #ffffff;
@@ -133,7 +151,7 @@ section footer {
 section footer p{
     font-size: 4em;
     color:#350001;
-    padding-left: 38px;
+    padding-left: 48px;
     padding-top: 48px;
     padding-bottom: 5px;
     -webkit-transform: rotate(-135deg);
@@ -141,9 +159,6 @@ section footer p{
     -ms-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
-}
-section footer p:hover{
-    color: #184f79;
 }
 body > footer {
     box-sizing: border-box;
@@ -153,10 +168,11 @@ body > footer {
     right: 40px;
     background: rgba(255, 255, 255, 0.8);
     padding: 15px;
+    border: 3px solid orange;
 }
 footer ul {
     position: absolute;
-    bottom: 15px;
+    bottom: 30px;
     right: 10px;
 }
 footer li {

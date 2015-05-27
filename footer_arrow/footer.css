@@ -22,7 +22,7 @@ footer {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-#arrow{
+#arrow {
     font-size: 5em;
     color:#350001;
     padding-left: 65px;
@@ -32,9 +32,9 @@ footer {
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
-#arrow:hover{
+#arrow:hover {
     color: #184f79;
 }
-a{
+a {
     text-decoration: none;
 }
