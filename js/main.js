@@ -3,12 +3,11 @@
  */
 
 
-
-
 $(document).ready(function () {
 
+
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 50) {
             $('.scrollup').fadeIn();
         } else {
             $('.scrollup').fadeOut();
@@ -16,17 +15,21 @@ $(document).ready(function () {
     });
 
     $('.scrollup').click(function () {
+        
         $("html, body").animate({
             scrollTop: 0
         }, 600);
         return false;
+
     });
 
 });
-document.querySelector( "#primaryNav-toggle" )
-    .addEventListener( "click", function() {
-        this.classList.toggle( "active" );
-    });
+document.querySelector("#primaryNav-toggle")
+
+    .addEventListener("click", function () {
+    this.classList.toggle("active");
+
+});
 
 
 

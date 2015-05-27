@@ -25,7 +25,7 @@ li {
 }
 body {   
     background: #ffffff;
-    overflow: hidden;
+    overflow: auto;
     border: 1px solid red;
     position: relative;
     height: 100%;
@@ -34,13 +34,13 @@ body {
 header #navigation{
     display: none;
 }
-header #navigation:target{
+header #navigation:target{    
     display: block;
     background-color: #184f79;
-    width: 475px;
+    width: 375px;
     height: 300px;
-    padding-top: 145px;
-    padding-left: 200px;
+    padding-top: 45px;
+    padding-left: 100px;
     margin-top: 40px;
     color: #f0f0f0;
     text-align: center;
