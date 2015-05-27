@@ -25,10 +25,11 @@ li {
 }
 body {   
     background: #ffffff;
-    overflow: auto;
+    overflow: hidden;
     border: 1px solid red;
     position: relative;
     height: 100%;
+    z-index: -2;
 }
 /* ===========  STYLE FOR Pop Out Menu------------*/
 header #navigation{
@@ -135,10 +136,11 @@ h2{
     margin-top: 20px;
     padding-bottom: 20px;
 }
+/* bottom scroll */
 section footer {
     position: absolute;
     left: calc(50% - 30px);
-    bottom: -32px;
+    bottom: -38px;
     width: 60px;
     height: 60px;
     background: #ffffff;
@@ -147,11 +149,12 @@ section footer {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+    z-index: 1;
 }
 section footer p{
     font-size: 4em;
     color:#350001;
-    padding-left: 48px;
+    padding-left: 45px;
     padding-top: 48px;
     padding-bottom: 5px;
     -webkit-transform: rotate(-135deg);
@@ -159,7 +162,9 @@ section footer p{
     -ms-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
-}
+
+   }
+
 body > footer {
     box-sizing: border-box;
     height: calc(100% - 80px);

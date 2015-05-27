@@ -8,33 +8,39 @@ Colors:
 #a92e14 - bright rust red for CTA's
 */
 /*Footer */
-footer {
-    width: 100px;
-    height: 100px;
-    background: #f0f0f0;
-    position: fixed;
-    bottom: -25px;
-    left: 50%;
-    margin-left: -67px;
+/* bottom scroll */
+body {   
+    background: #000000;
+    overflow: auto;
+    border: 1px solid red;
+    position: relative;
+    height: 100%;
+}
+section footer {
+    position: fixed;   /* fixed for display purposes only individually, otherwise absolute */
+    left: calc(50% - 30px);
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-#arrow {
-    font-size: 5em;
+section footer p{
+    font-size: 4em;
     color:#350001;
-    padding-left: 65px;
+    padding-left: 45px;
+    padding-top: 48px;
+    padding-bottom: 5px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     -ms-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
-}
-#arrow:hover {
-    color: #184f79;
-}
-a {
+   }
+   a {
     text-decoration: none;
-}
+   }
