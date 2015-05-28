@@ -12,6 +12,7 @@ article::after {
     display: table;
     clear: both;
 }
+
 .update{
     color: #a92e14;
     font-weight: bold;
@@ -40,44 +41,30 @@ li.active{
     color: #a92e14;
     background:#bfc5bc;
 }
-.codeContainer {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-}
-.codeContainer iframe#resize {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 /*style of links within text - different than nav links*/
 ul#resources li{
     border-right: none;
 }
 html {
-    position: relative;
-    min-height: 100%;
+    position: relative;    
     box-sizing: border-box;
     font-family: 'Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,sans-serif,serif;
     font-size: 100%;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
     margin: 0 0 6.250em; /* bottom = footer height */
-	padding: 0;
 	height: 100%;
 	background-color: #ffffff;
     color: #6D6442;
 }
-header{
-    max-width: 87.500em;
-    top: 0;
-    min-height: 11.375em;
-    width: 85%;
-    margin: 0 auto;
-	padding: 0;
+header{    
+    top: 0;     
+    width: 85%;  
+    margin: 0 auto;	
 	overflow: hidden;	
 }
 header h1{
@@ -101,44 +88,55 @@ header p{
     margin: 0 0 1em auto;
 }
 nav, nav ul {
-  font-size: .875em;
-  color: #6D6442;
-  text-align: center;  border-top: 1px solid #d0d0d0;
-  background: #ffffff;
-  list-style: none;
+  box-sizing: border-box;  
+  background: #f8f8f8;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+nav {
+  text-align: center;
+  border: 1px solid #6D6442;
+  border-bottom: 0; 
 }
 nav li {
   display: inline-block;
-  height: 2.500em;
-  line-height: 2.50em; /* Vertically center text by making line height equal to height   40px */
-  width: 6.250em;
-  overflow: hidden;
-  text-transform: uppercase;
-  position: relative;
-  border-left: 1px solid #d0d0d0;
-  padding: 0;
-  margin: 0 auto;
-}
-li:last-of-type {
-    border-right: 1px solid #d0d0d0;
-}
-nav li:visited{
-    color: #a92e14;
-}
-nav >ul >li:hover, nav > ul >ul>li:hover {
-    background: #938D79;
-    color: #f8f8f8;
+  vertical-align: middle;
+  border-radius: 50%;
 }
 
+nav li:last-child a {
+  border: none;
+}
+nav li a {  
+  padding: 10px 20px;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+nav li a:visited {
+    color: red;
+}
+nav li a:hover, nav li.active {
+  background: #ffffff;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(99,90,99,.5);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(99,90,99,/5);
+  box-shadow: 10px 10px 5px 0px rgba(99,90,99,.5);
+}
 /*main content styling */
 section{
     width: 85%;
     margin: 2.5em auto;
+    border-radius: 0 0 5px 5px;   
     border: 1px solid #6D6442;
-    -webkit-box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
-    -moz-box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
-    box-shadow: 10px 17px 24px -10px rgba(147,141,121,1);
     background-color: #f8f8f8;
+}
+section:first-of-type {
+    margin-top: 0;
+    border-top: none;
 }
 section p, #resources, #personal p, #professional p{
     text-indent: 2.125em;
@@ -146,6 +144,9 @@ section p, #resources, #personal p, #professional p{
     padding-left: 2.50em;
     padding-bottom: .625em;
     padding-top:.625em;
+}
+#resources {
+    background: #f8f8f8;
 }
 section h2, section h3{
     text-indent: 1.125em;
@@ -156,7 +157,7 @@ article{
     margin-left: 1.250em;
     margin-bottom: 1.688em;
 }
-/*About Us page specific*/
+/*===========================================About Us page specific*/
 #personal {
     float: left;
     width: 45%;
@@ -240,8 +241,7 @@ footer p{
 footer p:first-child:first-letter {
     font-size: 1em;
 }
-.scrollup {
-    
+.scrollup {    
     width: 5em;
     height: 5em;
     position: fixed;
@@ -252,7 +252,6 @@ footer p:first-child:first-letter {
     z-index: 9999999999;
     background: url('../images/humminbird.png') no-repeat;
 }
-
 @media only screen and (min-width: 960px){
 .nav {
   display: block !important;
