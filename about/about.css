@@ -45,8 +45,6 @@ h3{
 p{
     font-size: 1.083em;
     padding-bottom: 1em;
-    word-break: normal;
-    hyphens: auto;
 }
 /* SECTION ========== */
 header {
@@ -86,4 +84,16 @@ article:first-of-type {
     padding-right: 40px;
 }
 
-
+/* media queries */
+@media screen and (max-width: 700px) {
+    article{
+        width: 100%;
+    }
+    article:last-of-type {
+    padding-left: 0;
+}
+article:first-of-type {
+    border-right: none;
+    padding-right: 0;
+    }      
+ }
