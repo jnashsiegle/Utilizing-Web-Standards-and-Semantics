@@ -81,9 +81,7 @@ label {
 @media screen and (max-width: 1181px) {
     textarea {
         width: 85%;
-    }
-    
-    
+    }   
 }
 @media screen and (max-width: 550px) {
     input, textarea {

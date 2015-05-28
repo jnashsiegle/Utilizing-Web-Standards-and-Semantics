@@ -39,6 +39,7 @@ a {
     padding-bottom: 0.75em;
     margin: 0 auto;
     text-align: center;
+    line-height: 1.5;
 }
 #cta h1{
     font-size: 2em;
@@ -53,14 +54,14 @@ a {
     font-weight: bold;
     color: #f7f7f7;
 }
-a.button{
+p{
     font-style: normal;
     font-weight: bold;
     letter-spacing:  2px;
     text-transform: uppercase;
     color: black;
     background-color: #47b4f0;
-    padding: 20px 95px;
+    padding: 20px 20px;
     border-radius: 10px;
 }
 .icon {
@@ -81,3 +82,4 @@ a.button{
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
+
