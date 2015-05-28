@@ -64,7 +64,18 @@ article::after {        /*adding the clearfix as we don't want things to float i
     content:'\2192';
 }
 
+@media screen and (max-width: 850px) {
+    section {
+        padding: 5px 10px;
+    }
+}
 
+@media screen and (max-width: 435px) {
+    #blog img {
+        float: none;
+        margin: 0 75px;
+    }
+}
 
 
 
