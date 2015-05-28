@@ -5,8 +5,11 @@ Colors:
 #750d00  links
 */
 
-* {
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 body{
     max-width: 1200px;

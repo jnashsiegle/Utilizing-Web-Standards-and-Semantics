@@ -3,8 +3,16 @@ Colors:
 #184f79 text and field borders
 */
 
-* {
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+li::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 a{
     display: inline-block;
@@ -46,4 +54,12 @@ footer li:last-of-type{
     float: right;
 }
 
+@media screen and (max-width: 705px) {
+    footer li{
+        line-height: 1;
+        width: 100%;
+        margin: 5px 0;
+    }
+    }
+}
 

@@ -7,6 +7,13 @@ Colors:
 #fff - white
 #a92e14 - bright rust red for CTA's
 */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 article::after {
     content: "";
     display: table;
