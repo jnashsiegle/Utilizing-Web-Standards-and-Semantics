@@ -14,12 +14,11 @@ html {
   box-sizing: inherit;
 }
 
-article::after {
+article::after, section::after{
     content: "";
     display: table;
     clear: both;
 }
-
 .update{
     color: #a92e14;
     font-weight: bold;
@@ -31,10 +30,6 @@ p, li{
     line-height: 1.5;
     color: #6D6442;
 }
-p.clearfix{
-    padding-top: .625em;
-    vertical-align: baseline;
-}
 ol, ul{
 	list-style: none outside;
 }
@@ -42,10 +37,10 @@ a{
 	text-decoration: none;
 }
 a:link{
-    color: #54a663;
+    color: #6D6442;
 }
 li.active{
-    color: #a92e14;
+    color: #938D79;
     background:#bfc5bc;
 }
 /*style of links within text - different than nav links*/
@@ -54,13 +49,8 @@ ul#resources li{
 }
 html {
     position: relative;    
-    box-sizing: border-box;
     font-family: 'Avant Garde',Avantgarde,'Century Gothic',CenturyGothic,AppleGothic,sans-serif,serif;
     font-size: 100%;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 body {
     margin: 0 0 6.250em; /* bottom = footer height */
@@ -124,14 +114,14 @@ nav li a {
   border-right: 1px solid rgba(255,255,255,0.1);
 }
 nav li a:visited {
-    color: red;
+    color: #938D79;
 }
 nav li a:hover, nav li.active {
   background: #ffffff;
   border-radius: 50%;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(99,90,99,.5);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(99,90,99,/5);
-  box-shadow: 10px 10px 5px 0px rgba(99,90,99,.5);
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(99,90,99,.5);
+  -moz-box-shadow: 10px 10px 5px 0 rgba(99,90,99,.5);
+  box-shadow: 10px 10px 5px 0 rgba(99,90,99,.5);
 }
 /*main content styling */
 section{
@@ -145,7 +135,7 @@ section:first-of-type {
     margin-top: 0;
     border-top: none;
 }
-section p, #resources, #personal p, #professional p{
+section p, #resources {
     text-indent: 2.125em;
     padding-right: 2.50em;
     padding-left: 2.50em;
@@ -160,44 +150,7 @@ section h2, section h3{
     padding-bottom: .625em;
     padding-top:.625em;
 }
-article{
-    margin-left: 1.250em;
-    margin-bottom: 1.688em;
-}
-/*===========================================About Us page specific*/
-#personal {
-    float: left;
-    width: 45%;
-}
-#personal h1, #personal img{
-    text-indent: 1.125em;
-}
-#personal img, #professional img{
-    margin: 2.5em 1.125em 2.5em 1.125em;
-    transform: none;
-    transition: none;
-    -webkit-box-shadow:
-    0px 0px 0px 2px rgba(0,0,0,0.6),
-    0px 0px 0px 14px #fff,
-    0px 0px 0px 18px rgba(0,0,0,0.2),
-    6px 6px 8px 17px #555;
-    -moz-box-shadow:
-    0px 0px 0px 2px rgba(0,0,0,0.6),
-    0px 0px 0px 14px #fff,
-    0px 0px 0px 18px rgba(0,0,0,0.2),
-    6px 6px 8px 17px #555;
-    box-shadow:
-    0px 0px 0px 2px rgba(0,0,0,0.6),
-    0px 0px 0px 14px #fff,
-    0px 0px 0px 18px rgba(0,0,0,0.2),
-    6px 6px 8px 17px #555;
-    width: 250px;
-    height: 180px;
-}
 
-p:first-child:first-letter {
-    font-size: 50px;
-}
 /*images and examples*/
 figure{
     display: inline-block;
@@ -269,9 +222,10 @@ footer p:first-child:first-letter {
     h1 {
         font-size: 24px;
     }
-    #professional, #personal{
+    #about article{
         padding-right: 0;
         padding-left: 0;
         width: 85%;
+        height: 100%;
     }
 }
