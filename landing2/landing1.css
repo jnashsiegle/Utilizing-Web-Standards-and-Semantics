@@ -6,6 +6,12 @@ Colors:
 #008cba - light blue (almost twitter blue)
 ##184f79 - dark blue
 */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,14 +27,20 @@ html {
 li {
     list-style-type: none;
 }
-body {   
-    background: #ffffff;
+body {
     overflow: hidden;
-    border: 1px solid #ffffff;
     position: relative;
     height: 100%;
     width: 100%;
     z-index: -2;
+}
+#mainWrap {    
+    border: 25px solid #f0f0f0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
 }
 /* ===========  STYLE FOR Pop Out Menu------------*/
 header #navigation{
@@ -69,7 +81,7 @@ header nav{     /*SET THE BACKGROUND */
     width: 75px;
     height: 75px;
     background-color: #184f79;
-    margin-top:40px;
+    margin-top: 40px;
     margin-left: 40px;
 }
 #primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
@@ -147,7 +159,7 @@ section footer {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-    z-index: 1;
+
 }
 section footer p{
     font-size: 4em;
@@ -211,21 +223,23 @@ footer li.current a::after {
 
 @media screen and (max-width: 1000px) {
    body{
-    max-width: calc(100% - 40px);
+    max-width: 100%;
    }
     #cta {
-        width: 100%;
-
+        width: 100%;  
     }
     #cta img {
        display: none;
     }
-     h2, p {
-        padding-left 125px;
+     h2, #cta p:first-of-type {
+        content: "";
+        width: 100%;   
+        margin-top: 0;     
+        margin-left: 100px;
+        padding: 0;
     }
     body > footer {
         display: none;
     }
-    
 }
-}
+
