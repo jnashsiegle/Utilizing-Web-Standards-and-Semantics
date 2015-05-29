@@ -1,0 +1,231 @@
+/*
+Colors:
+#f0f0f0 - white/grey
+#131072 - dk purple
+#350001 - dark brown
+#008cba - light blue (almost twitter blue)
+##184f79 - dark blue
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #131072;
+    text-decoration: none;
+}
+html {
+    height: 100%;
+}
+li {
+    list-style-type: none;
+}
+body {   
+    background: #ffffff;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+/* ===========  STYLE FOR Pop Out Menu------------*/
+header #navigation{
+    display: none;
+}
+header #navigation:target{    
+    display: block;
+    background-color: #184f79;
+    width: 375px;
+    height: 300px;
+    padding-top: 45px;
+    padding-left: 100px;
+    margin-top: 40px;
+    color: #f0f0f0;
+    text-align: center;
+   
+}
+header #navigation li:first-child a{
+    border-top: 1px solid #f0f0f0;
+}
+header #navigation a{
+    display: block;
+    background: #184f79;
+    padding: 5px 15px;
+    width: 70%;
+    border-bottom: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 100%;
+}
+/* ====================== END POP OUT MENU ==================*/
+
+
+/* ==================LET'S MAKE THE HAMBURGER ICON =========== */
+header nav{     /*SET THE BACKGROUND */
+    width: 75px;
+    height: 75px;
+    background-color: #184f79;
+    margin-top:40px;
+    margin-left: 40px;
+}
+#primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 45px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+}
+#primaryNav-toggle span{  /*builds the icon -1*/
+    top: 65px;
+    left: 53px;
+}
+#primaryNav-toggle span:before {   /*builds the icon -2 */
+    top: 10px;
+}
+#primaryNav-toggle span:after { /*builds the icon -3 */
+    bottom: -20px;
+}
+/*let's make the X */
+
+#primaryNav-toggle span, #primaryNav-toggle span:before, #primaryNav-toggle span:after {
+    transition: all 500ms ease-in-out;
+}
+#primaryNav-toggle.active span {
+    background-color: transparent;
+}
+#primaryNav-toggle.active span:before, #primaryNav-toggle.active span:after {
+    top: 10px;
+}
+#primaryNav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#primaryNav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+#cta {
+    box-sizing: border-box;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    margin: 0 auto;
+    color: #131072;
+    padding: 50px 66% 50px 50px;
+    text-align: center;
+    background: url("../images/mundial/bg-home.jpg") no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+h2{
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bolder;
+    color: #0166ad;
+    line-height: 23px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+/* bottom scroll */
+section footer {
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: -38px;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+}
+section footer p{
+    font-size: 4em;
+    color:#350001;
+    padding-left: 45px;
+    padding-top: 48px;
+    padding-bottom: 5px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+
+   }
+
+body > footer {
+    box-sizing: border-box;
+    height: calc(100% - 80px);
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    
+}
+footer ul {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+footer li {
+    padding: 5px 0;
+}
+footer li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: solid 2px #000000;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+footer li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(19, 16, 114, .5);
+    box-shadow: 0 0 1px rgba(19, 16, 114, .5);
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+footer li a:hover,
+footer li a:focus {
+    background-color: rgba(19, 16, 114, .5);
+}
+footer li.current a::after {
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+   body{
+    max-width: calc(100% - 40px);
+   }
+    #cta {
+        width: 100%;
+
+    }
+    #cta img {
+       display: none;
+    }
+     h2, p {
+        padding-left 125px;
+    }
+    body > footer {
+        display: none;
+    }
+    
+}
+}
